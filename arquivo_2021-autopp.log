@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=latex 2022.12.24)  24 DEC 2022 07:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=latex 2022.12.24)  24 DEC 2022 07:28
 entering extended mode
  %&-line parsing enabled.
-**\let \APPmakepictures \empty \input  arquivo_2015.tex
-(arquivo_2015.tex (ufsm_2015.cls
-Document Class: ufsm_2015 
+**\let \APPmakepictures \empty \input  arquivo_2021.tex
+(arquivo_2021.tex (ufsm_2021.cls
+Document Class: ufsm_2021 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
 
@@ -1066,7 +1066,7 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 11.39996pt on input line 267.
-No file arquivo_2015-autopp.aux.
+No file arquivo_2021-autopp.aux.
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 267.
 LaTeX Font Info:    ... okay on input line 267.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 267.
@@ -1207,11 +1207,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--272
 
 Overfull \vbox (3.0pt too high) has occurred while \output is active []
 
-No file arquivo_2015-autopp.lof.
-No file arquivo_2015-autopp.logg.
-No file arquivo_2015-autopp.loi.
-No file arquivo_2015-autopp.lot.
-No file arquivo_2015-autopp.los.
+No file arquivo_2021-autopp.lof.
+No file arquivo_2021-autopp.logg.
+No file arquivo_2021-autopp.loi.
+No file arquivo_2021-autopp.lot.
+No file arquivo_2021-autopp.los.
 
 Underfull \hbox (badness 10000) detected at line 272
 []$\OML/cmm/m/it/14.4 SIGLA\OT1/cmr/m/n/14.4 1$[]
@@ -1242,7 +1242,7 @@ Underfull \hbox (badness 10000) detected at line 272
 []$\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 Re\OT1/cmr/m/n/14.4 )[]$[]
  []
 
-No file arquivo_2015-autopp.toc.
+No file arquivo_2021-autopp.toc.
 
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
@@ -1420,24 +1420,24 @@ t line 491.
 
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
-No file arquivo_2015-autopp.bbl.
+No file arquivo_2021-autopp.bbl.
 
 Overfull \vbox (6.38434pt too high) has occurred while \output is active []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\noindent' on input line 524.
+(hyperref)                removing `\noindent' on input line 525.
 
 
 Overfull \vbox (6.38434pt too high) has occurred while \output is active []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\noindent' on input line 534.
+(hyperref)                removing `\noindent' on input line 535.
 
 
 LaTeX Warning: Citation `man:MDTUFSM2015' on page 26 undefined on input line 54
-2.
+3.
 
 
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []

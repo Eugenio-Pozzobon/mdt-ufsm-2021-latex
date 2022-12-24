@@ -1,0 +1,131 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[{AMERICAN METEOROLOGICAL SOCIETY} 2015]{site:amsglo:fog}
+\abntrefinfo{{AMERICAN METEOROLOGICAL SOCIETY}}{{AMERICAN METEOROLOGICAL
+  SOCIETY}}{2015}
+{{AMERICAN METEOROLOGICAL SOCIETY}. \textbf{Glossary of Meteorology}: Fog.
+  Boston, 2015.
+Acessado em 06 abr 2015.
+Dispon{\'\i}vel em: \url{http://glossary.ametsoc.org/wiki/Fog}.}
+
+\bibitem[Anabor 2004]{diss:anabor2004}
+\abntrefinfo{Anabor}{ANABOR}{2004}
+{ANABOR, V.
+\textbf{An{\'a}lise descritiva dos distemas donvectivos de escala meso-$\alpha$
+  atrav{\'e}s das imagens de sat{\'e}lite GOES-8}.
+2004. 78~f. Disserta\c{c}\~{a}o (Mestrado em Sensoriamento Remoto) ---
+  Universidade Federal do Rio Grande do Sul, Porto Alegre, 2004.}
+
+\bibitem[Anabor 2008]{tese:anabor2008}
+\abntrefinfo{Anabor}{ANABOR}{2008}
+{ANABOR, V.
+\textbf{Sistemas Convectivos de Mesoescala no Sul da América do Sul:
+  Propagação em Série Contra o Escoamento em Baixos Níveis}.
+2008. 78~f. Tese (Doutorado em Física) --- Universidade Federal de Santa
+  Maria, Santa Maria, 2008.}
+
+\bibitem[Anabor e Ferreira 2012]{cbmet:anabor2012}
+\abntrefinfo{Anabor e Ferreira}{ANABOR; FERREIRA}{2012}
+{ANABOR, V.; FERREIRA, V. Sistemas convectivos de mesoescala: serão todos
+  {CCMs}? In:  CONGRESSO BRASILEIRO DE METEOROLOGIA, 17., 2012, Gramado.
+  \textbf{Anais eletr{\^o}nicos...} São Paulo: Sociedade Brasileira de
+  Meteorologia, 2012. Acesso em: 10/4/2015. Dispon{\'\i}vel em:
+  \url{http://www.sbmet.org.br/cbmet2012/pdfs/64ZA.pdf}.}
+
+\bibitem[Aris 1989]{livro:aris1989}
+\abntrefinfo{Aris}{ARIS}{1989}
+{ARIS, R. \textbf{Vectors, tensors, and the basic equations of fluid
+  mechanics}. New York: Dover Publications, 1989. 286~p.}
+
+\bibitem[Cotton e Anthes 1989]{livro:cotton1989}
+\abntrefinfo{Cotton e Anthes}{COTTON; ANTHES}{1989}
+{COTTON, W.~R.; ANTHES, R.~A. \textbf{Storm and Cloud Dynamics}. San Diego:
+  Academic Press, 1989. v.~44. 883~p.  (International Geophysics Series,
+  v.~44).}
+
+\bibitem[Djuri{\'{c}} 1994]{cap:livro:djuric1994}
+\abntrefinfo{Djuri{\'{c}}}{DJURI{\'{C}}}{1994}
+{DJURI{\'{C}}, D. Kinematics.
+In:  \underline{\ \ \ \ \ \ \ \ }. \textbf{Weather analysis}. New Jersey:
+  Prentice Hall, 1994. cap.~4, p. 50--68.}
+
+\bibitem[Fedorova 1999]{livro:fedorova:v1}
+\abntrefinfo{Fedorova}{FEDOROVA}{1999}
+{FEDOROVA, N. \textbf{Meteorologia sin{\'o}tica}. Pelotas: Editora e Gráfica
+  Universit{\'a}ria - UFPel, 1999. {v}. 1, 256 p.}
+
+\bibitem[Fujita 1981]{artigo:fujita1981}
+\abntrefinfo{Fujita}{FUJITA}{1981}
+{FUJITA, T.~T. Tornadoes and downbursts in the context of generalized planetary
+  scales.
+\textbf{Journal of the Atmospheric Sciences}, v.~38, n.~8, p. 1511--1534,
+  1981.}
+
+\bibitem[Halliday, Resnick e Walker 2008]{livro:halliday28ed}
+\abntrefinfo{Halliday, Resnick e Walker}{HALLIDAY; RESNICK; WALKER}{2008}
+{HALLIDAY, D.; RESNICK, R.; WALKER, J. \textbf{Fundamentos da Física}:
+  Gravitação, ondas e termodinâmica. 8. ed. Rio de Janeiro: Livros Técnicos
+  e Científicos S.A., 2008. {v}. 2, 296 p.}
+
+\bibitem[Janji{\'c} 2002]{artigo:janjic2002}
+\abntrefinfo{Janji{\'c}}{JANJI{\'C}}{2002}
+{JANJI{\'C}, Z.~I. Nonsingular implementation of the mellor--yamada level 2.5
+  scheme in the ncep meso model.
+\textbf{NCEP office note}, v.~437, p.~61, 2002.}
+
+\bibitem[Mintegui 2014]{tcc:mintegui2014}
+\abntrefinfo{Mintegui}{MINTEGUI}{2014}
+{MINTEGUI, J.~M.
+\textbf{Avaliação das características multicamada de eventos de neve no sul
+  do {B}rasil}.
+2014. 30~f. Monografia (Trabalho de Conclusão de Curso) --- Curso de
+  Graduação em Meteorologia, Universidade Federal de Santa Maria, Santa
+  Maria, 2014.}
+
+\bibitem[{MMM--UCAR} 2015]{site:wrfhome}
+\abntrefinfo{{MMM--UCAR}}{{MMM--UCAR}}{2015}
+{{MMM--UCAR}. \textbf{THE WEATHER RESEARCH \& FORECASTING MODEL}: Home.
+  Boulder, 2015.
+Acesso em 06 abr. 2015.
+Dispon{\'\i}vel em: \url{http://wrf-model.org/}.}
+
+\bibitem[Monin e Yaglom 2007]{livro:monin:v1}
+\abntrefinfo{Monin e Yaglom}{MONIN; YAGLOM}{2007}
+{MONIN, A.~S.; YAGLOM, A.~M. \textbf{Statistical fluid mechanics}: Mechanics of
+  turbulence. London: Dover Publications, 2007. {v}. 1, 769 p.}
+
+\bibitem[Puhales et al. 2010]{puhalesBLT2010}
+\abntrefinfo{Puhales et al.}{PUHALES et al.}{2010}
+{PUHALES, F.~S. et al. Analysis of the turbulent kinetic energy budget in the
+  planetary boundary layer by large eddy simulation. In:  SYMPOSIUM ON BOUNDARY
+  LAYERS AND TURBULENCE, 19., 2010, Keystone. \textbf{Anais eletr{\^o}nicos...}
+  Boston: American Meteorological Society, 2010. Acesso em: 10/5/2011.
+  Dispon{\'\i}vel em:
+  \url{http://ams.confex.com/ams/19Ag19BLT9Urban/techprogram/paper\_173113.htm}.}
+
+\hiddenbibitem[Richardson 1922]{apud:richardson1922}
+\abntrefinfo{Richardson}{RICHARDSON}{1922}
+{}
+
+\bibitem[UFSM-PRPGP. Universidade Federal de Santa Maria. Pr\'o-Reitoria de
+  P\'os-Gradua{\c c}\~ao e Pesquisa 2015]{man:MDTUFSM2015}
+\abntrefinfo{UFSM-PRPGP}{UFSM-PRPGP}{2015}
+{UFSM-PRPGP. UNIVERSIDADE FEDERAL DE SANTA MARIA. PR\'O-REITORIA DE
+  P\'OS-GRADUA{\c C}\~AO E PESQUISA. \textbf{Manual de dissertações e teses}:
+  Estrutura e apresenta{\c c}{\~a}o de monografias, disserta{\c c}{\~o}es e
+  teses.
+Santa Maria, 2015. 88~p. Acesso em 27 ago. 2017. Dispon{\'\i}vel em:
+  \url{http://w3.ufsm.br/biblioteca/index.php/sib-ufsm/normas}.}
+
+\bibitem[Wyngaard 1981]{cap:livro:wyngaard1981}
+\abntrefinfo{Wyngaard}{WYNGAARD}{1981}
+{WYNGAARD, J.~C. Boundary-layer modeling. In:  NIEUWSTADT, F.; DOP, H.~V.
+  (Ed.). \textbf{Atmospheric turbulence and air pollution modeling}. Dordrecht:
+  D. Reidel Publishing Company, 1981. cap.~3, p. 69--106.}
+
+\end{thebibliography}

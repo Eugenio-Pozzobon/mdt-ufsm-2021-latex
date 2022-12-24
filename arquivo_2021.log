@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.2)  24 DEC 2022 07:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.2)  24 DEC 2022 07:28
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**./arquivo_2015.tex
-(arquivo_2015.tex
+**./arquivo_2021.tex
+(arquivo_2021.tex
 LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-09-28> (ufsm_2015.cls
-Document Class: ufsm_2015 
+L3 programming layer <2022-09-28> (ufsm_2021.cls
+Document Class: ufsm_2021 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
 
@@ -385,20 +385,20 @@ runsystem(echo "auto-pst-pdf: Auxiliary LaTeX compilation")...executed.
 
 runsystem(echo "-------------------------------------------------")...executed.
 
-runsystem(del "arquivo_2015-autopp.log")...executed.
+runsystem(del "arquivo_2021-autopp.log")...executed.
 
-runsystem(latex -disable-write18 -jobname="arquivo_2015-autopp" -interaction=ba
-tchmode  "\let \APPmakepictures \empty \input  arquivo_2015.tex")...executed.
+runsystem(latex -disable-write18 -jobname="arquivo_2021-autopp" -interaction=ba
+tchmode  "\let \APPmakepictures \empty \input  arquivo_2021.tex")...executed.
 
 
 
 Package auto-pst-pdf Warning: 
-    Creation of arquivo_2015-autopp.dvi failed.
+    Creation of arquivo_2021-autopp.dvi failed.
 This warning occured on input line 128.
 
 
 Package auto-pst-pdf Warning: 
-    Could not create arquivo_2015-pics.pdf. Auxiliary files not deleted.
+    Could not create arquivo_2021-pics.pdf. Auxiliary files not deleted.
 This warning occured on input line 128.
 
 runsystem(echo "-------------------------------------------------")...executed.
@@ -1155,8 +1155,8 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 11.39996pt on input line 267.
 
-(arquivo_2015.aux)
-\openout1 = `arquivo_2015.aux'.
+(arquivo_2021.aux)
+\openout1 = `arquivo_2021.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 267.
 LaTeX Font Info:    ... okay on input line 267.
@@ -1203,9 +1203,9 @@ lations-basic-dictionary')
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `brazil'. on input line 267.
 Package hyperref Info: Link coloring OFF on input line 267.
- (arquivo_2015.out) (arquivo_2015.out)
+ (arquivo_2021.out) (arquivo_2021.out)
 \@outlinefile=\write3
-\openout3 = `arquivo_2015.out'.
+\openout3 = `arquivo_2021.out'.
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 13.67995pt on input line 267.
@@ -1299,7 +1299,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 7.59998pt on input line 272.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 5.69998pt on input line 272.
-<ficha_catalografica.pdf, id=50, 597.51233pt x 845.0471pt>
+<ficha_catalografica.pdf, id=54, 597.51233pt x 845.0471pt>
 File: ficha_catalografica.pdf Graphic file (type pdf)
 <use ficha_catalografica.pdf>
 Package pdftex.def Info: ficha_catalografica.pdf  used on input line 272.
@@ -1360,34 +1360,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--272
 Overfull \vbox (3.0pt too high) has occurred while \output is active []
 
  [5]
-(arquivo_2015.lof)
+(arquivo_2021.lof)
 \tf@lof=\write4
-\openout4 = `arquivo_2015.lof'.
+\openout4 = `arquivo_2021.lof'.
 
  [6
 
-] (arquivo_2015.logg)
+] (arquivo_2021.logg)
 \tf@logg=\write5
-\openout5 = `arquivo_2015.logg'.
+\openout5 = `arquivo_2021.logg'.
 
  [7
 
-] (arquivo_2015.loi)
+] (arquivo_2021.loi)
 \tf@loi=\write6
-\openout6 = `arquivo_2015.loi'.
+\openout6 = `arquivo_2021.loi'.
 
  [8
 
 ]
-(arquivo_2015.lot)
+(arquivo_2021.lot)
 \tf@lot=\write7
-\openout7 = `arquivo_2015.lot'.
+\openout7 = `arquivo_2021.lot'.
 
  [9
 
-] (arquivo_2015.los)
+] (arquivo_2021.los)
 \tf@los=\write8
-\openout8 = `arquivo_2015.los'.
+\openout8 = `arquivo_2021.los'.
 
  [10
 
@@ -1425,34 +1425,34 @@ Underfull \hbox (badness 10000) detected at line 272
 
 [12
 
-] (arquivo_2015.toc
+] (arquivo_2021.toc
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  17.09995pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 17.09995pt
+text indent calculated (toc, 0): 12.03828pt
 number indent calculated (toc, 0): 0.0pt
-text noindent (toc, 0): 17.09995pt
+text noindent (toc, 0): 50.06776pt
 number noindent (toc, 0): 0.0pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  17.09995pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 17.09995pt
+text indent calculated (toc, 0): 12.03828pt
 number indent calculated (toc, 0): 0.0pt
-text noindent (toc, 0): 17.09995pt
+text noindent (toc, 0): 50.06776pt
 number noindent (toc, 0): 0.0pt
 number indent by \l@... (toc, 1):  17.09995pt
 text indent by \l@... (toc, 1):  26.21994pt
-number indent by parent (toc, 1):  17.09995pt
-text indent calculated (toc, 1): 26.21994pt
-number indent calculated (toc, 1): 17.09995pt
-text noindent (toc, 1): 26.21994pt
+number indent by parent (toc, 1):  12.03828pt
+text indent calculated (toc, 1): 21.54565pt
+number indent calculated (toc, 1): 12.03828pt
+text noindent (toc, 1): 50.06776pt
 number noindent (toc, 1): 0.0pt
 number indent by \l@... (toc, 2):  43.31989pt
 text indent by \l@... (toc, 2):  36.47984pt
-number indent by parent (toc, 2):  43.31989pt
-text indent calculated (toc, 2): 36.47984pt
-number indent calculated (toc, 2): 43.31989pt
-text noindent (toc, 2): 36.47984pt
+number indent by parent (toc, 2):  33.58394pt
+text indent calculated (toc, 2): 31.05302pt
+number indent calculated (toc, 2): 33.58394pt
+text noindent (toc, 2): 50.06776pt
 number noindent (toc, 2): 0.0pt
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
 (Font)              Font shape `T1/phv/b/sl' tried instead on input line 5.
@@ -1460,10 +1460,10 @@ LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
 (Font)              scaled to size 11.39996pt on input line 5.
 number indent by \l@... (toc, 3):  79.79974pt
 text indent by \l@... (toc, 3):  46.73991pt
-number indent by parent (toc, 3):  79.79974pt
-text indent calculated (toc, 3): 46.73991pt
-number indent calculated (toc, 3): 79.79974pt
-text noindent (toc, 3): 46.73991pt
+number indent by parent (toc, 3):  64.63696pt
+text indent calculated (toc, 3): 40.5604pt
+number indent calculated (toc, 3): 64.63696pt
+text noindent (toc, 3): 50.06776pt
 number noindent (toc, 3): 0.0pt
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 6.
@@ -1471,42 +1471,49 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 11.39996pt on input line 6.
 number indent by \l@... (toc, 4):  113.99963pt
 text indent by \l@... (toc, 4):  56.99982pt
-number indent by parent (toc, 4):  113.99963pt
-text indent calculated (toc, 4): 56.99982pt
-number indent calculated (toc, 4): 113.99963pt
-text noindent (toc, 4): 56.99982pt
+number indent by parent (toc, 4):  105.19736pt
+text indent calculated (toc, 4): 50.06776pt
+number indent calculated (toc, 4): 105.19736pt
+text noindent (toc, 4): 50.06776pt
 number noindent (toc, 4): 0.0pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  17.09995pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 17.09995pt
+text indent calculated (toc, 0): 12.03828pt
 number indent calculated (toc, 0): 0.0pt
-text noindent (toc, 0): 17.09995pt
+text noindent (toc, 0): 50.06776pt
 number noindent (toc, 0): 0.0pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  17.09995pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 17.09995pt
+text indent calculated (toc, 0): 12.03828pt
 number indent calculated (toc, 0): 0.0pt
-text noindent (toc, 0): 17.09995pt
+text noindent (toc, 0): 50.06776pt
 number noindent (toc, 0): 0.0pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  17.09995pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 17.09995pt
+text indent calculated (toc, 0): 12.03828pt
 number indent calculated (toc, 0): 0.0pt
-text noindent (toc, 0): 17.09995pt
+text noindent (toc, 0): 50.06776pt
 number noindent (toc, 0): 0.0pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  17.09995pt
 number indent by parent (toc, 0):  0.0pt
-text indent calculated (toc, 0): 17.09995pt
+text indent calculated (toc, 0): 12.03828pt
 number indent calculated (toc, 0): 0.0pt
-text noindent (toc, 0): 17.09995pt
+text noindent (toc, 0): 50.06776pt
+number noindent (toc, 0): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  17.09995pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 12.03828pt
+number indent calculated (toc, 0): 0.0pt
+text noindent (toc, 0): 50.06776pt
 number noindent (toc, 0): 0.0pt
 )
 \tf@toc=\write9
-\openout9 = `arquivo_2015.toc'.
+\openout9 = `arquivo_2021.toc'.
 
  [13
 
@@ -1531,69 +1538,6 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-
-LaTeX Warning: Citation `tcc:mintegui2014' on page 16 undefined on input line 3
-08.
-
-
-LaTeX Warning: Citation `diss:anabor2004' on page 16 undefined on input line 30
-8.
-
-
-LaTeX Warning: Citation `tese:anabor2008' on page 16 undefined on input line 30
-8.
-
-
-LaTeX Warning: Citation `livro:halliday28ed' on page 16 undefined on input line
- 308.
-
-
-LaTeX Warning: Citation `livro:fedorova:v1' on page 16 undefined on input line 
-308.
-
-
-LaTeX Warning: Citation `site:amsglo:fog' on page 16 undefined on input line 30
-8.
-
-
-LaTeX Warning: Citation `cap:livro:djuric1994' on page 16 undefined on input li
-ne 319.
-
-
-LaTeX Warning: Citation `livro:aris1989' on page 16 undefined on input line 319
-.
-
-
-LaTeX Warning: Citation `livro:cotton1989' on page 16 undefined on input line 3
-19.
-
-
-LaTeX Warning: Citation `cap:livro:wyngaard1981' on page 16 undefined on input 
-line 319.
-
-
-LaTeX Warning: Citation `livro:fedorova:v1' on page 16 undefined on input line 
-319.
-
-
-LaTeX Warning: Citation `artigo:fujita1981' on page 16 undefined on input line 
-319.
-
-
-LaTeX Warning: Citation `puhalesBLT2010' on page 16 undefined on input line 319
-.
-
-
-LaTeX Warning: Citation `artigo:janjic2002' on page 16 undefined on input line 
-319.
-
-
-LaTeX Warning: Citation `cbmet:anabor2012' on page 16 undefined on input line 3
-19.
-
-
-LaTeX Warning: Citation `site:wrfhome' on page 16 undefined on input line 319.
-
 [16
 
 ]
@@ -1603,79 +1547,34 @@ ntos do norte
  []
 
 
-LaTeX Warning: Citation `apud:richardson1922' on page 17 undefined on input lin
-e 335.
-
-
-LaTeX Warning: Citation `apud:richardson1922' on page 17 undefined on input lin
-e 335.
-
-
-LaTeX Warning: Citation `livro:monin:v1' on page 17 undefined on input line 335
-.
-
-
-LaTeX Warning: Citation `livro:monin:v1' on page 17 undefined on input line 335
-.
-
-
-LaTeX Warning: Citation `apud:richardson1922' on page 17 undefined on input lin
-e 353.
-
-
-LaTeX Warning: Citation `apud:richardson1922' on page 17 undefined on input lin
-e 353.
-
-
-LaTeX Warning: Citation `livro:monin:v1' on page 17 undefined on input line 353
-.
-
-
-LaTeX Warning: Citation `livro:monin:v1' on page 17 undefined on input line 353
-.
-
-
 Overfull \vbox (6.38434pt too high) has occurred while \output is active []
 
 
 [17]
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 395.
+Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
 
-LaTeX Warning: Citation `livro:halliday28ed' on page 18 undefined on input line
- 395.
-
-[18
+[18] [19
 
 ]
 Package hyperref Info: bookmark level for unknown quadro defaults to 0 on input
  line 425.
-
-
-LaTeX Warning: Citation `livro:halliday28ed' on page 19 undefined on input line
- 438.
-
 
 Overfull \hbox (20.11484pt too wide) in paragraph at lines 448--448
 []\T1/cmtt/m/n/12 \caption{\label{exepretex}Sequência dos elementros pré-testua
 is da MDT-UFSM.}[] 
  []
 
-<figuras/pretextuais.png, id=182, 579.66562pt x 306.39468pt>
+<figuras/pretextuais.png, id=255, 579.66562pt x 306.39468pt>
 File: figuras/pretextuais.png Graphic file (type png)
 <use figuras/pretextuais.png>
 Package pdftex.def Info: figuras/pretextuais.png  used on input line 458.
 (pdftex.def)             Requested size: 273.14922pt x 144.37953pt.
 
-LaTeX Warning: Citation `man:MDTUFSM2015' on page 19 undefined on input line 45
-9.
-
-
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
 
-[19]
+[20]
 Overfull \hbox (20.11484pt too wide) in paragraph at lines 466--466
 []\T1/cmtt/m/n/12 \caption{\label{exepretex1}Sequência dos elementros pré-testu
 ais da MDT-UFSM}[] 
@@ -1688,23 +1587,19 @@ File: figuras/pretextuais.png Graphic file (type png)
 Package pdftex.def Info: figuras/pretextuais.png  used on input line 476.
 (pdftex.def)             Requested size: 273.14922pt x 144.37953pt.
 
-LaTeX Warning: Citation `man:MDTUFSM2015' on page 20 undefined on input line 47
-7.
-
-
 Overfull \hbox (26.28833pt too wide) in paragraph at lines 485--485
 []\T1/cmtt/m/n/12 \caption{\label{exepretex3} Um exemplo de utilização do ambie
 nte ``grafico''.}[] 
  []
 
 
-Overfull \vbox (6.48169pt too high) has occurred while \output is active []
+Overfull \vbox (6.38434pt too high) has occurred while \output is active []
 
 
-[20 <./figuras/pretextuais.png>]
+[21 <./figuras/pretextuais.png>]
 Package hyperref Info: bookmark level for unknown grafico defaults to 0 on inpu
 t line 491.
-<figuras/estrutura_com.pdf, id=191, 1373.13pt x 1084.05pt>
+<figuras/estrutura_com.pdf, id=269, 1373.13pt x 1084.05pt>
 File: figuras/estrutura_com.pdf Graphic file (type pdf)
 <use figuras/estrutura_com.pdf>
 Package pdftex.def Info: figuras/estrutura_com.pdf  used on input line 493.
@@ -1713,95 +1608,100 @@ Package pdftex.def Info: figuras/estrutura_com.pdf  used on input line 493.
 Overfull \vbox (6.38434pt too high) has occurred while \output is active []
 
 
-[21 <./figuras/estrutura_com.pdf>] [22
+[22 <./figuras/estrutura_com.pdf>] [23
 
-]
-No file arquivo_2015.bbl.
-
-Overfull \vbox (6.48169pt too high) has occurred while \output is active []
+] (arquivo_2021.bbl
+Overfull \vbox (6.38434pt too high) has occurred while \output is active []
 
 
-[23]
+[24]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\noindent' on input line 524.
+(hyperref)                removing `\noindent' on input line 3.
 
-[24
+[25
+
+])
+Overfull \vbox (6.48169pt too high) has occurred while \output is active []
+
+
+[26]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\noindent' on input line 525.
+
+[27
 
 ]
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
 
-[25]
+[28]
 pdfTeX warning (ext4): destination with the same identifier (name{appendix.A}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.534 \chapter{Algo interessante que alguÃ©m fez}
+l.535 \chapter{Algo interessante que alguÃ©m fez}
                                                  
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\noindent' on input line 534.
+(hyperref)                removing `\noindent' on input line 535.
 
-[26
+[29
 
 ]
-<figuras/lombada.png, id=225, 441.90094pt x 423.08063pt>
+<figuras/lombada.png, id=318, 441.90094pt x 423.08063pt>
 File: figuras/lombada.png Graphic file (type png)
 <use figuras/lombada.png>
-Package pdftex.def Info: figuras/lombada.png  used on input line 541.
+Package pdftex.def Info: figuras/lombada.png  used on input line 542.
 (pdftex.def)             Requested size: 273.14922pt x 261.52614pt.
 
-
-LaTeX Warning: Citation `man:MDTUFSM2015' on page 27 undefined on input line 54
-2.
-
-
-Overfull \vbox (6.38434pt too high) has occurred while \output is active []
-
-
-[27]
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
 
-[28 <./figuras/lombada.png>]
+[30]
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
 
-[29]
+[31 <./figuras/lombada.png>]
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
 
-[30] (arquivo_2015.aux)
+[32]
+Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
-LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `arquivo_2015.out' has not changed.
-(rerunfilecheck)             Checksum: 24ED18CECA354B1CBAA59EE7AF482888;1897.
+[33] (arquivo_2021.aux)
+Package rerunfilecheck Info: File `arquivo_2021.out' has not changed.
+(rerunfilecheck)             Checksum: 33B7D8A067A8631B0423E3029ACA70E1;2090.
  ) 
 Here is how much of TeX's memory you used:
- 29811 strings out of 475385
- 581423 string characters out of 2776907
- 1027844 words of memory out of 3000000
- 50538 multiletter control sequences out of 15000+600000
- 516713 words of font info for 93 fonts, out of 8000000 for 9000
+ 29868 strings out of 475385
+ 582576 string characters out of 2776907
+ 1035404 words of memory out of 3000000
+ 50572 multiletter control sequences out of 15000+600000
+ 513983 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,9n,131p,678b,1061s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\eugen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
-1200.pk>{C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.e
-nc}<C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmmi12.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr10.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/eugen/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/eugen/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/eugen/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/eugen/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on arquivo_2015.pdf (32 pages, 545103 bytes).
+ 117i,9n,131p,678b,1124s stack positions out of 10000i,1000n,20000p,200000b,80000s
+
+pdfTeX warning (dest): name{cite.apud:richardson1922} has been referenced but d
+oes not exist, replaced by a fixed one
+
+ <C:\Users\eugen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt12
+00.pk>{C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc
+}<C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mmi12.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr10.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/eugen/AppData/Local/Program
+s/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/eugen/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/eugen/AppData/Local/
+Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/eugen/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on arquivo_2021.pdf (35 pages, 568547 bytes).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 64 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 468 PDF objects out of 1000 (max. 8388607)
+ 86 named destinations out of 1000 (max. 500000)
+ 115 words of extra memory for PDF output out of 10000 (max. 10000000)
 

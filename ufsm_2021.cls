@@ -7,7 +7,7 @@
 %%%% Contato: latexufsm@googlegroups.com                     %%%%
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{ufsm_2015}
+\ProvidesClass{ufsm_2021}
 \RequirePackage{appendix}
 \RequirePackage{graphicx}
 \RequirePackage{multicol}
