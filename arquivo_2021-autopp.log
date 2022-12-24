@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=latex 2022.12.24)  24 DEC 2022 07:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=latex 2022.12.24)  24 DEC 2022 20:39
 entering extended mode
  %&-line parsing enabled.
 **\let \APPmakepictures \empty \input  arquivo_2021.tex
@@ -1013,19 +1013,19 @@ Package newfloat Info: `rotating' package detected.
 )
 Package newfloat Info: New float `quadro' with options ` fileext=los, listname=
 Lista de Quadros, name=Quadro, placement=tbhp, within=chapter, ' on input line 
-87.
+91.
 \c@quadro=\count388
-Package newfloat Info: float type `quadro'=4 on input line 87.
+Package newfloat Info: float type `quadro'=4 on input line 91.
 Package newfloat Info: New float `grafico' with options ` fileext=logg, listnam
 e=Lista de GrÃ¡ficos, name=GrÃ¡fico, placement=tbhp, within=chapter, ' on input
- line 96.
+ line 100.
 \c@grafico=\count389
-Package newfloat Info: float type `grafico'=8 on input line 96.
+Package newfloat Info: float type `grafico'=8 on input line 100.
 Package newfloat Info: New float `ilustracao' with options ` fileext=loi, listn
 ame=Lista de IlustraÃ§Ãµes, name=IlustraÃ§Ã£o, placement=tbhp, within=chapter, 
-' on input line 104.
+' on input line 108.
 \c@ilustracao=\count390
-Package newfloat Info: float type `ilustracao'=16 on input line 104.
+Package newfloat Info: float type `ilustracao'=16 on input line 108.
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
@@ -1059,32 +1059,32 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 )
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 26
-7.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 27
+3.
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 267.
+(Font)              scaled to size 11.39996pt on input line 273.
 No file arquivo_2021-autopp.aux.
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 267.
-LaTeX Font Info:    ... okay on input line 267.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 267.
-LaTeX Font Info:    ... okay on input line 267.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 267.
-LaTeX Font Info:    ... okay on input line 267.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 267.
-LaTeX Font Info:    ... okay on input line 267.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 267.
-LaTeX Font Info:    ... okay on input line 267.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 267.
-LaTeX Font Info:    ... okay on input line 267.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 267.
-LaTeX Font Info:    ... okay on input line 267.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 267.
-LaTeX Font Info:    ... okay on input line 267.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 267.
-LaTeX Font Info:    ... okay on input line 267.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 273.
+LaTeX Font Info:    ... okay on input line 273.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 273.
+LaTeX Font Info:    ... okay on input line 273.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 273.
+LaTeX Font Info:    ... okay on input line 273.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 273.
+LaTeX Font Info:    ... okay on input line 273.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 273.
+LaTeX Font Info:    ... okay on input line 273.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 273.
+LaTeX Font Info:    ... okay on input line 273.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 273.
+LaTeX Font Info:    ... okay on input line 273.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 273.
+LaTeX Font Info:    ... okay on input line 273.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 273.
+LaTeX Font Info:    ... okay on input line 273.
 Preview: Fontsize 12pt
 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
@@ -1093,41 +1093,41 @@ File: translations-basic-dictionary-brazil.trsl (brazil translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `brazil'. on input line 267.
+or `brazil'. on input line 273.
 \providecommand\hyper@newdestlabel[2]{}
-Package hyperref Info: Link coloring OFF on input line 267.
+Package hyperref Info: Link coloring OFF on input line 273.
 
 Package hyperref Warning: Rerun to get /PageLabels entry.
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 267.
+(Font)              scaled to size 13.67995pt on input line 273.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 267.
-Package tocstyle Info: prepare \l@part for redefinition on input line 267.
+(Font)              scaled to size 13.67995pt on input line 273.
+Package tocstyle Info: prepare \l@part for redefinition on input line 273.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 267.
-Package tocstyle Info: prepare \l@chapter for redefinition on input line 267.
-Package tocstyle Info: prepare \l@section for redefinition on input line 267.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 267
+(Font)              scaled to size 11.39996pt on input line 273.
+Package tocstyle Info: prepare \l@chapter for redefinition on input line 273.
+Package tocstyle Info: prepare \l@section for redefinition on input line 273.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 273
 .
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 267
+LaTeX Font Info:    Trying to load font information for U+msb on input line 273
 .
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package tocstyle Info: prepare \l@subsection for redefinition on input line 267
+Package tocstyle Info: prepare \l@subsection for redefinition on input line 273
 .
 Package tocstyle Info: prepare \l@subsubsection for redefinition on input line 
-267.
-Package tocstyle Info: prepare \l@paragraph for redefinition on input line 267.
+273.
+Package tocstyle Info: prepare \l@paragraph for redefinition on input line 273.
 
 Package tocstyle Info: prepare \l@subparagraph for redefinition on input line 2
-67.
-Package tocstyle Info: prepare \l@table for redefinition on input line 267.
-Package tocstyle Info: prepare \l@figure for redefinition on input line 267.
+73.
+Package tocstyle Info: prepare \l@table for redefinition on input line 273.
+Package tocstyle Info: prepare \l@figure for redefinition on input line 273.
 
 Package tocstyle Warning: unexpected \@dottedtocline definition!
 (tocstyle)                You are either using an unknown LaTeX kernel
@@ -1145,46 +1145,46 @@ p \parindent #2\relax \@afterindenttrue \interlinepenalty \@M \leavevmode \@tem
 pdima #3\relax \advance \leftskip \@tempdima \null \nobreak \hskip -\leftskip {
 #4}\nobreak \leaders \hbox {$\m@th \mkern \@dotsep mu\hbox {.}\mkern \@dotsep m
 u$}\hfill \nobreak \hb@xt@ \@pnumwidth {\hfil \normalfont \normalcolor #5\kern 
--\p@ \kern \p@ }\par }\fi  on input line 267.
+-\p@ \kern \p@ }\par }\fi  on input line 273.
 Package newfloat Info: Trying Plan B...
 Package newfloat Info: `float' package detected.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 272.
+(Font)              scaled to size 16.41594pt on input line 278.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 15.20108pt on input line 272.
+(Font)              scaled to size 15.20108pt on input line 278.
 
-Underfull \hbox (badness 1715) in paragraph at lines 272--272
+Underfull \hbox (badness 1715) in paragraph at lines 278--278
 \T1/phv/m/n/12 Tese de Dou-to-rado apre-sen-tada ao Pro-
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 2
-72.
+78.
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 272.
+(Font)              scaled to size 11.39996pt on input line 278.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 272.
+(Font)              scaled to size 7.59998pt on input line 278.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 272.
+(Font)              scaled to size 5.69998pt on input line 278.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 272.
+(Font)              scaled to size 9.49997pt on input line 278.
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 272.
+(Font)              scaled to size 9.49997pt on input line 278.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 272.
+(Font)              scaled to size 6.64998pt on input line 278.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 272.
+(Font)              scaled to size 4.74998pt on input line 278.
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
 
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 272--272
+Underfull \hbox (badness 1715) in paragraph at lines 278--278
 \T1/phv/m/n/12 Tese de Dou-to-rado apre-sen-tada ao Pro-
  []
 
@@ -1192,7 +1192,12 @@ Underfull \hbox (badness 1715) in paragraph at lines 272--272
 Overfull \vbox (3.0pt too high) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
 
  []
 
@@ -1200,7 +1205,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--272
 Overfull \vbox (3.0pt too high) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
 
  []
 
@@ -1213,32 +1223,32 @@ No file arquivo_2021-autopp.loi.
 No file arquivo_2021-autopp.lot.
 No file arquivo_2021-autopp.los.
 
-Underfull \hbox (badness 10000) detected at line 272
+Underfull \hbox (badness 10000) detected at line 278
 []$\OML/cmm/m/it/14.4 SIGLA\OT1/cmr/m/n/14.4 1$[]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 272
+Underfull \hbox (badness 10000) detected at line 278
 []$\OML/cmm/m/it/14.4 SIGLA\OT1/cmr/m/n/14.4 2$[]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 272
+Underfull \hbox (badness 10000) detected at line 278
 []$\OML/cmm/m/it/14.4 SIGLAMAX$[]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 272
+Underfull \hbox (badness 10000) detected at line 278
 []$\OML/cmm/m/it/14.4 u[]$[]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 272
+Underfull \hbox (badness 10000) detected at line 278
 []$\OML/cmm/m/it/14.4 w[]$[]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 272
+Underfull \hbox (badness 10000) detected at line 278
 []$\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 Re\OT1/cmr/m/n/14.4 )[]$[]
  []
 
@@ -1247,11 +1257,11 @@ No file arquivo_2021-autopp.toc.
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 292.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 298.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 292.
+(Font)              scaled to size 11.39996pt on input line 298.
 
-Overfull \hbox (2.92654pt too wide) in paragraph at lines 296--297
+Overfull \hbox (2.92654pt too wide) in paragraph at lines 302--303
 \T1/phv/m/n/12 clas-ses de ci-ta-ções. To-das elas po-dem ser usa-das com o $\O
 MS/cmsy/m/n/12 n$\T1/phv/m/sl/12 cite$\OMS/cmsy/m/n/12 f$\T1/phv/m/sl/12 label$
 \OMS/cmsy/m/n/12 g$ \T1/phv/m/n/12 ou $\OMS/cmsy/m/n/12 n$\T1/phv/m/sl/12 citeo
@@ -1260,163 +1270,163 @@ nline$\OMS/cmsy/m/n/12 f$\T1/phv/m/sl/12 label$\OMS/cmsy/m/n/12 g$\T1/phv/m/n/1
  []
 
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-02.
+08.
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
 LaTeX Warning: Citation `tcc:mintegui2014' on page 16 undefined on input line 3
-08.
+14.
 
 
-LaTeX Warning: Citation `diss:anabor2004' on page 16 undefined on input line 30
-8.
+LaTeX Warning: Citation `diss:anabor2004' on page 16 undefined on input line 31
+4.
 
 
-LaTeX Warning: Citation `tese:anabor2008' on page 16 undefined on input line 30
-8.
+LaTeX Warning: Citation `tese:anabor2008' on page 16 undefined on input line 31
+4.
 
 
 LaTeX Warning: Citation `livro:halliday28ed' on page 16 undefined on input line
- 308.
+ 314.
 
 
 LaTeX Warning: Citation `livro:fedorova:v1' on page 16 undefined on input line 
-308.
+314.
 
 
-LaTeX Warning: Citation `site:amsglo:fog' on page 16 undefined on input line 30
-8.
+LaTeX Warning: Citation `site:amsglo:fog' on page 16 undefined on input line 31
+4.
 
 
 LaTeX Warning: Citation `cap:livro:djuric1994' on page 16 undefined on input li
-ne 319.
+ne 325.
 
 
-LaTeX Warning: Citation `livro:aris1989' on page 16 undefined on input line 319
+LaTeX Warning: Citation `livro:aris1989' on page 16 undefined on input line 325
 .
 
 
 LaTeX Warning: Citation `livro:cotton1989' on page 16 undefined on input line 3
-19.
+25.
 
 
 LaTeX Warning: Citation `cap:livro:wyngaard1981' on page 16 undefined on input 
-line 319.
+line 325.
 
 
 LaTeX Warning: Citation `livro:fedorova:v1' on page 16 undefined on input line 
-319.
+325.
 
 
 LaTeX Warning: Citation `artigo:fujita1981' on page 16 undefined on input line 
-319.
+325.
 
 
-LaTeX Warning: Citation `puhalesBLT2010' on page 16 undefined on input line 319
+LaTeX Warning: Citation `puhalesBLT2010' on page 16 undefined on input line 325
 .
 
 
 LaTeX Warning: Citation `artigo:janjic2002' on page 16 undefined on input line 
-319.
+325.
 
 
 LaTeX Warning: Citation `cbmet:anabor2012' on page 16 undefined on input line 3
-19.
+25.
 
 
-LaTeX Warning: Citation `site:wrfhome' on page 16 undefined on input line 319.
+LaTeX Warning: Citation `site:wrfhome' on page 16 undefined on input line 325.
 
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 323.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 329.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 11.39996pt on input line 323.
+(Font)              scaled to size 11.39996pt on input line 329.
 
-Overfull \hbox (1.59436pt too wide) in paragraph at lines 331--331
+Overfull \hbox (1.59436pt too wide) in paragraph at lines 337--337
 []\T1/cmtt/m/n/12 Sobre a circulação geral da atmosfera pode-se dizer que os ve
 ntos do norte 
  []
 
 
 LaTeX Warning: Citation `apud:richardson1922' on page 17 undefined on input lin
-e 335.
+e 341.
 
 
 LaTeX Warning: Citation `apud:richardson1922' on page 17 undefined on input lin
-e 335.
+e 341.
 
 
-LaTeX Warning: Citation `livro:monin:v1' on page 17 undefined on input line 335
+LaTeX Warning: Citation `livro:monin:v1' on page 17 undefined on input line 341
 .
 
 
-LaTeX Warning: Citation `livro:monin:v1' on page 17 undefined on input line 335
+LaTeX Warning: Citation `livro:monin:v1' on page 17 undefined on input line 341
 .
 
 
 LaTeX Warning: Citation `apud:richardson1922' on page 17 undefined on input lin
-e 353.
+e 359.
 
 
 LaTeX Warning: Citation `apud:richardson1922' on page 17 undefined on input lin
-e 353.
+e 359.
 
 
-LaTeX Warning: Citation `livro:monin:v1' on page 17 undefined on input line 353
+LaTeX Warning: Citation `livro:monin:v1' on page 17 undefined on input line 359
 .
 
 
-LaTeX Warning: Citation `livro:monin:v1' on page 17 undefined on input line 353
+LaTeX Warning: Citation `livro:monin:v1' on page 17 undefined on input line 359
 .
 
 
 Overfull \vbox (6.38434pt too high) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 395.
+(Font)              scaled to size 9.49997pt on input line 401.
 
 LaTeX Warning: Citation `livro:halliday28ed' on page 18 undefined on input line
- 395.
+ 401.
 
 Package hyperref Info: bookmark level for unknown quadro defaults to 0 on input
- line 425.
+ line 431.
 
 LaTeX Warning: Citation `livro:halliday28ed' on page 19 undefined on input line
- 438.
+ 444.
 
 
-Overfull \hbox (20.11484pt too wide) in paragraph at lines 448--448
+Overfull \hbox (20.11484pt too wide) in paragraph at lines 454--454
 []\T1/cmtt/m/n/12 \caption{\label{exepretex}Sequência dos elementros pré-testua
 is da MDT-UFSM.}[] 
  []
 
 
-LaTeX Warning: Citation `man:MDTUFSM2015' on page 19 undefined on input line 45
-9.
+LaTeX Warning: Citation `man:MDTUFSM2015' on page 19 undefined on input line 46
+5.
 
 
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
 
-Overfull \hbox (20.11484pt too wide) in paragraph at lines 466--466
+Overfull \hbox (20.11484pt too wide) in paragraph at lines 472--472
 []\T1/cmtt/m/n/12 \caption{\label{exepretex1}Sequência dos elementros pré-testu
 ais da MDT-UFSM}[] 
  []
 
 Package hyperref Info: bookmark level for unknown ilustracao defaults to 0 on i
-nput line 474.
+nput line 480.
 
-LaTeX Warning: Citation `man:MDTUFSM2015' on page 20 undefined on input line 47
-7.
+LaTeX Warning: Citation `man:MDTUFSM2015' on page 20 undefined on input line 48
+3.
 
 
-Overfull \hbox (26.28833pt too wide) in paragraph at lines 485--485
+Overfull \hbox (26.28833pt too wide) in paragraph at lines 491--491
 []\T1/cmtt/m/n/12 \caption{\label{exepretex3} Um exemplo de utilização do ambie
 nte ``grafico''.}[] 
  []
 
 Package hyperref Info: bookmark level for unknown grafico defaults to 0 on inpu
-t line 491.
+t line 497.
 
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
@@ -1426,18 +1436,18 @@ Overfull \vbox (6.38434pt too high) has occurred while \output is active []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\noindent' on input line 525.
+(hyperref)                removing `\noindent' on input line 530.
 
 
 Overfull \vbox (6.38434pt too high) has occurred while \output is active []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\noindent' on input line 535.
+(hyperref)                removing `\noindent' on input line 540.
 
 
 LaTeX Warning: Citation `man:MDTUFSM2015' on page 26 undefined on input line 54
-3.
+8.
 
 
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
@@ -1456,10 +1466,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 29463 strings out of 475386
- 578879 string characters out of 2776932
- 1031645 words of memory out of 3000000
- 50273 multiletter control sequences out of 15000+600000
+ 29473 strings out of 475386
+ 579028 string characters out of 2776932
+ 1031791 words of memory out of 3000000
+ 50283 multiletter control sequences out of 15000+600000
  504121 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,9n,131p,713b,854s stack positions out of 10000i,1000n,20000p,200000b,80000s

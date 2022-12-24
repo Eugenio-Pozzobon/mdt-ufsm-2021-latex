@@ -4,9 +4,8 @@
 \contentsline {section}{\numberline {2.1}Modelos de citação}{16}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}O comando \textit {apud}}{17}{subsection.2.1.1}%
 \contentsline {subsubsection}{\numberline {2.1.1.1}\textit {Apud on line}}{17}{subsubsection.2.1.1.1}%
-\contentsline {paragraph}{\numberline {2.1.1.1.1}Teste de seção quinária}{18}{paragraph.2.1.1.1.1}%
-\contentsline {chapter}{\numberline {3}Tabelas, figuras, quadros, ilustrações e gráficos}{19}{section*.19}%
-\contentsline {chapter}{\numberline {4}Conclusão}{23}{section*.25}%
-\contentsline {chapter}{\hspace {\@tempdima }\noindent Refer\^encias Bibliogr\'aficas}{25}{section*.27}%
-\contentsline {chapter}{\hspace {\@tempdima }\noindent Apêndice A~--~Demonstração de algo}{27}{section*.29}%
-\contentsline {chapter}{\hspace {\@tempdima }\noindent Anexo~A~--~Algo interessante que alguém fez}{29}{section*.31}%
+\contentsline {paragraph}{\numberline {2.1.1.1.1}Teste de seção quinária}{17}{paragraph.2.1.1.1.1}%
+\contentsline {chapter}{\numberline {3}Tabelas, figuras, quadros, ilustrações e gráficos}{18}{section*.19}%
+\contentsline {chapter}{\numberline {4}Conclusão}{22}{section*.25}%
+\contentsline {chapter}{\hspace {\@tempdima }\noindent Apêndice A~--~Demonstração de algo}{24}{section*.27}%
+\contentsline {chapter}{\hspace {\@tempdima }\noindent Anexo~A~--~Algo interessante que alguém fez}{26}{section*.29}%

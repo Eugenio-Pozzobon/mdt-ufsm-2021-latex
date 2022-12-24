@@ -1,11 +1,15 @@
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
-%%%% Classe LaTex - MDT-UFSM-2015 - ver. 1.08 (06/09/2017)   %%%%
-%%%% adaptado da versao de Fabio Natanael Kepler (sem data)  %%%%
-%%%% Grupo de desenvolvimento:                               %%%%
-%%%% Franciano Scremin Puhales, Josue Sehnem,                %%%%
-%%%% Pablo Eli Soares de Oliveira e Diogo Machado Custodio   %%%%
-%%%% Contato: latexufsm@googlegroups.com                     %%%%
+%%%% Classe LaTex - MDT-UFSM-2021 - ver. 1.0   				 %%%%
+
+%%%% Por Eugênio Piveta Pozzobon 							 %%%%
+%%%% adaptado da versao de Franciano Scremin Puhales, 		 %%%%
+%%%% Josue Sehnem Pablo Eli Soares de Oliveira e 			 %%%%
+%%%% Diogo Machado Custodio (06/09/2017)  					 %%%%
+%%%% que adaptaram de Fabio Natanael Kepler (2012)  		 %%%%
+
+%%%% Contato: eugenio.pozzobon@acad.ufsm.br                  %%%%
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{ufsm_2021}
 \RequirePackage{appendix}
@@ -72,8 +76,8 @@
 \settocstylefeature[0]{entryvskip}{0pt}%
 \settocstylefeature[1]{entryhook}{\uppercase}
 \settocstylefeature[2]{entryhook}{\bfseries}
-\settocstylefeature[3]{entryhook}{\it}
-\settocstylefeature[4]{entryhook}{}
+\settocstylefeature[3]{entryhook}{}
+\settocstylefeature[4]{entryhook}{\it}
 
 
 
@@ -106,12 +110,12 @@
 
 \usepackage[]{caption}
 
-\captionsetup[ilustracao]{font=normalsize,justification=justified,singlelinecheck=off,labelsep=endash}
-\captionsetup[quadro]{font=normalsize,justification=justified,singlelinecheck=off,labelsep=endash}
-\captionsetup[grafico]{font=normalsize,justification=justified,singlelinecheck=off,labelsep=endash}
-\captionsetup[table]{font=normalsize,justification=justified,singlelinecheck=off,labelsep=endash}
-\captionsetup[figure]{font=normalsize,justification=justified,singlelinecheck=off,labelsep=endash}
-\newcommand{\fonte}{\justify\footnotesize{Fonte: ~}}
+\captionsetup[ilustracao]{font=footnotesize,justification=centering,singlelinecheck=off,labelsep=endash}
+\captionsetup[quadro]{font=footnotesize,justification=centering,singlelinecheck=off,labelsep=endash}
+\captionsetup[grafico]{font=footnotesize,justification=centering,singlelinecheck=off,labelsep=endash}
+\captionsetup[table]{font=footnotesize,justification=centering,singlelinecheck=off,labelsep=endash}
+\captionsetup[figure]{font=footnotesize,justification=centering,singlelinecheck=off,labelsep=endash}
+\newcommand{\fonte}{\centering\footnotesize{~\\\vspace{10pt}Fonte: ~}}
 
 \newif\ifcodifica
   \def\oesteeuropeu{\codificafalse}
@@ -357,8 +361,8 @@ Defesa realizada por videoconferência.
 }
 
 \newcommand{\UFSM@sexoorientador}[1]{%
-\ifthenelse{\equal{\@orientadorsexo}{M}}{ORIENTADOR:}{}%
-\ifthenelse{\equal{\@orientadorsexo}{F}}{ORIENTADORA:}{}%
+\ifthenelse{\equal{\@orientadorsexo}{M}}{Orientador:}{}%
+\ifthenelse{\equal{\@orientadorsexo}{F}}{Orientadora:}{}%
 }
 
 \newcommand{\UFSM@sexoorientadorprof}[1]{%
@@ -380,8 +384,8 @@ Defesa realizada por videoconferência.
 
 
 \newcommand{\UFSM@sexocoorientador}[1]{%
-\ifthenelse{\equal{\@coorientadorsexo}{M}}{COORIENTADOR:}{}%
-\ifthenelse{\equal{\@coorientadorsexo}{F}}{COORIENTADORA:}{}%
+\ifthenelse{\equal{\@coorientadorsexo}{M}}{Coorientador:}{}%
+\ifthenelse{\equal{\@coorientadorsexo}{F}}{Coorientadora:}{}%
 }
 
 \newcommand{\UFSM@sexocoorientadorprof}[1]{%
@@ -427,8 +431,8 @@ Defesa realizada por videoconferência.
 }
 
 \newcommand{\UFSM@sexosupervisor}[1]{%
-\ifthenelse{\equal{\@supervisorsexo}{M}}{SUPERVISOR:}{}%
-\ifthenelse{\equal{\@supervisorsexo}{F}}{SUPERVISORA:}{}%
+\ifthenelse{\equal{\@supervisorsexo}{M}}{Supervisor:}{}%
+\ifthenelse{\equal{\@supervisorsexo}{F}}{Supervisora:}{}%
 }
 
 
@@ -582,10 +586,18 @@ Defesa realizada por videoconferência.
 \newif\if@comanexos
   \def\semanexos{\@comanexosfalse}
   \@comanexostrue    
+
+\newif\if@subtitulo
+	\@subtitulofalse
+	\def\subtitulo#1{\@subtitulotrue\gdef\@subtitulo{\MakeUppercase{#1}}}
   
 \newif\if@englishtitle
   \@englishtitlefalse
   \def\englishtitle#1{\@englishtitletrue\gdef\@englishtitle{\MakeUppercase{#1}}}
+  
+\newif\if@subenglishtitle
+	\@subenglishtitlefalse
+	\def\subenglishtitle#1{\@subenglishtitletrue\gdef\@subenglishtitle{\MakeUppercase{#1}}}
 
 \newif\if@comcatalografica
   \def\semcatalografica{\@comcatalograficafalse}
@@ -740,7 +752,7 @@ Defesa realizada por videoconferência.
     \@startsection{subsubsection}{3}{\z@}%
     {-3.25ex \@plus -1ex \@minus -.2ex}%
     {1.5ex \@plus .2ex}%
-    {\reset@font\normalsize\it}}
+    {\reset@font\normalsize}}
 
    
     
@@ -749,7 +761,7 @@ Defesa realizada por videoconferência.
     \@startsection{paragraph}{4}{\z@}%
     {3.25ex \@plus 1ex \@minus.2ex}%
     {1.5ex \@plus .2ex}%
-    {\reset@font\normalsize}
+    {\reset@font\normalsize\it}
     }
 
 
@@ -1023,7 +1035,7 @@ Defesa realizada por videoconferência.
 
 }
     \renewenvironment{thebibliography}[1]
-    {\chapter*{\bibname}%
+    {\chapter*{\refname}%
     \addcontentsline{toc}{chapter}{\hspace{\@tempdima}\noindent\bibname}
     \@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
     \list{\@biblabel{\@arabic\c@enumiv}}%
@@ -1035,7 +1047,7 @@ Defesa realizada por videoconferência.
     \let\p@enumiv\@empty
     \renewcommand\theenumiv{\@arabic\c@enumiv}}%
     \singlespacing
-    \setlength{\baselineskip}{11pt}
+    \setlength{\baselineskip}{12pt}
     \setlength{\parskip}{1.\baselineskip}
     \sloppy
     \clubpenalty4000
@@ -1076,6 +1088,9 @@ Defesa realizada por videoconferência.
     {\Large{\scalefont{0.926}\UFSM@autor}}\\
     \vspace{8\baselineskip}
     {\large\MakeUppercase{\textbf{\@title}}}\\
+    \if@subtitulo
+	    {\large\MakeUppercase{\@subtitulo}}\\
+    \fi
     \vspace{\fill}
     {\large{\UFSM@local}}\\
      {\large{\UFSM@ano}}
@@ -1094,20 +1109,21 @@ Defesa realizada por videoconferência.
 \setlength{\parskip}{0.0cm}
      \begin{center}
         \singlespacing
-        \textbf{\noindent\@author}\\
-        \vspace{6.0\baselineskip}
-        \MakeUppercase{\textbf{\noindent\@title}}
-        \vspace{4.0\baselineskip}
+        \noindent\@author\\
+        \vspace{7.0\baselineskip}
+        \MakeUppercase{\textbf{\noindent\@title}}\\
+        \if@subtitulo
+        {\MakeUppercase{\@subtitulo}}\\
+        \fi
+        \vspace{5.0\baselineskip}
      \end{center}   
-     
      \noindent\begin{flushright}
      \noindent\begin{minipage}{0.5\textwidth}
      \singlespacing
      {\noindent\UFSM@textofolharosto\UFSM@videoconf}
+     \vspace{8\baselineskip} 
      \end{minipage}
      \end{flushright}
-            \vspace{7\baselineskip}
- 
      \begin{center}
         \singlespacing
         {{{\UFSM@sexoorientador~~\UFSM@sexoorientadorprof~~\@orientadornome}}}  
@@ -1169,7 +1185,7 @@ Defesa realizada por videoconferência.
 \fi
 \setlength{\parskip}{0.0cm}
       \onehalfspacing
-\noindent\begin{center}\reset@font\bfseries{ERRATA}\end{center}
+\noindent\begin{center}\reset@font\bfseries{ERRATA}\vspace{\baselineskip}
 \noindent\begin{tabular}{|>{\centering\arraybackslash}p{0.2\textwidth} |>{\centering\arraybackslash}p{0.2\textwidth}  |>{\centering\arraybackslash}p{0.2\textwidth} | >{\centering\arraybackslash}p{0.2\textwidth} |}
 \hline
 \textbf{Página} & \textbf{Linha} & \textbf{Onde se lê} & \textbf{Leia-se}\\
@@ -1177,6 +1193,7 @@ Defesa realizada por videoconferência.
 \@erratatab
 \hline
 \end{tabular}
+\end{center}
 }
 
 
@@ -1349,9 +1366,10 @@ Defesa realizada por videoconferência.
     \begin{center}
     \singlespacing
       	{\large\textbf{RESUMO}}\\
-        \vspace{1\baselineskip}
-        \MakeUppercase{{\large\textbf{{\@title}}}}\\
-        \vspace{1\baselineskip}
+        \vspace{2\baselineskip}
+        \MakeUppercase{{\large\textbf{{\@title}}}}\\ \if@subtitulo
+        {\MakeUppercase{\large{\@subtitulo}}}\\ \fi
+        \vspace{2\baselineskip}
       {\large{\UFSM@sexoauthor~~\UFSM@autor}}\\
       {\large{\UFSM@sexoorientador~~\@orientadornome}}\\
       \if@coorientador
@@ -1359,8 +1377,9 @@ Defesa realizada por videoconferência.
       \fi
     \end{center}
     \setlength{\parindent}{0cm}
-    \onehalfspacing
+    \singlespacing
     \@resumo~\\
+    ~\\
     ~\\
     \textbf{Palavras-chave:}~{\@palavrachave}
 
@@ -1380,19 +1399,20 @@ Defesa realizada por videoconferência.
     \singlespacing
       	{\large
         \textbf{ABSTRACT}}\\
-        \vspace{1\baselineskip}
-        \MakeUppercase{{\large\textbf{{\@englishtitle}}}}\\
-         \vspace{1\baselineskip}
+        \vspace{2\baselineskip}
+        \MakeUppercase{{\large\textbf{{\@englishtitle}}}}\\\if@subenglishtitle
+        {\MakeUppercase{\large{\@subenglishtitle}}}\\ \fi \vspace{2\baselineskip}
      {\large{AUTHOR: \UFSM@autor}}\\
       {\large{ADVISOR: \@orientadornome}}\\
       \if@coorientador
-      {\large{CO-ADVISOR: \@coorientadornome}}\\
+      {\large{CO-ADVISOR: \@coorientadornome}}\\~\\
       \fi
     \end{center}
     \setlength{\parindent}{0cm}
     \onehalfspacing
 
     \@abstract~\\
+    ~\\
     ~\\
     \textbf{Keywords:}~{\@keywords}
     
@@ -1418,7 +1438,7 @@ Defesa realizada por videoconferência.
 \@starttoc{lot}%
 \if@restonecol\twocolumn\fi
 }
-\singlespacing
+\onehalfspacing
 \listoftables
 }
 
@@ -1439,7 +1459,7 @@ Defesa realizada por videoconferência.
 \@starttoc{logg}%
 \if@restonecol\twocolumn\fi
 }
-\singlespacing
+\onehalfspacing
  \listofgraficos
 }
 
@@ -1461,7 +1481,7 @@ Defesa realizada por videoconferência.
 \@starttoc{los}%
 \if@restonecol\twocolumn\fi
 }
-\singlespacing
+\onehalfspacing
 \listofquadros
 }
 
@@ -1480,12 +1500,13 @@ Defesa realizada por videoconferência.
 \@starttoc{loi}%
 \if@restonecol\twocolumn\fi
 }
-\singlespacing
+
+\onehalfspacing
 \listofilustracaos
 }
 
 
-%%%%%%%% Lista de Figuras
+%%%%%%%% Lista de as
 \newcommand{\UFSM@listafiguras}{%
 \renewcommand\listoffigures{%
 \if@twocolumn
@@ -1499,7 +1520,8 @@ Defesa realizada por videoconferência.
 \@starttoc{lof}%
 \if@restonecol\twocolumn\fi
 }
-\singlespacing
+
+\onehalfspacing
 % \settocstylefeature[1]{entryhook}{\figurename~}
 \listoffigures
 }
@@ -1519,7 +1541,8 @@ Defesa realizada por videoconferência.
 \@starttoc{toc}%
 \if@restonecol\twocolumn\fi
 }
-\singlespacing
+
+\onehalfspacing
 \tableofcontents
 }
 
