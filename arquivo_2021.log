@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.2)  24 DEC 2022 20:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.2)  24 DEC 2022 21:20
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1472,7 +1472,7 @@ number indent by \l@... (toc, 3):  79.79974pt
 text indent by \l@... (toc, 3):  46.73991pt
 number indent by parent (toc, 3):  64.63696pt
 text indent calculated (toc, 3): 40.5604pt
-number indent calculated (toc, 3): 64.63696pt
+number indent calculated (toc, 3): 69.69862pt
 text noindent (toc, 3): 50.06776pt
 number noindent (toc, 3): 0.0pt
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
@@ -1481,9 +1481,9 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 11.39996pt on input line 6.
 number indent by \l@... (toc, 4):  113.99963pt
 text indent by \l@... (toc, 4):  56.99982pt
-number indent by parent (toc, 4):  105.19736pt
+number indent by parent (toc, 4):  110.25902pt
 text indent calculated (toc, 4): 50.06776pt
-number indent calculated (toc, 4): 105.19736pt
+number indent calculated (toc, 4): 114.9333pt
 text noindent (toc, 4): 50.06776pt
 number noindent (toc, 4): 0.0pt
 number indent by \l@... (toc, 0):  0.0pt
@@ -1792,7 +1792,7 @@ Package rerunfilecheck Info: File `arquivo_2021.out' has not changed.
 Here is how much of TeX's memory you used:
  29821 strings out of 475385
  581572 string characters out of 2776907
- 1028117 words of memory out of 3000000
+ 1028135 words of memory out of 3000000
  50548 multiletter control sequences out of 15000+600000
  516713 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1809,7 +1809,7 @@ ams/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/eugen/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/eugen/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/eugen/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on arquivo_2021.pdf (32 pages, 547448 bytes).
+Output written on arquivo_2021.pdf (32 pages, 547445 bytes).
 PDF statistics:
  369 PDF objects out of 1000 (max. 8388607)
  64 named destinations out of 1000 (max. 500000)

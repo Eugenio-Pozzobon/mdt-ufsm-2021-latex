@@ -1210,9 +1210,9 @@ Defesa realizada por videoconferência.
      \begin{center}
         \singlespacing
         \textbf{\noindent\@author}\\
-        \vspace{6.0\baselineskip}
+        \vspace{7.0\baselineskip}
         \MakeUppercase{\textbf{\noindent\@title}}
-        \vspace{4.0\baselineskip}
+        \vspace{5.0\baselineskip}
      \end{center}   
      
      \noindent\begin{flushright}
@@ -1221,47 +1221,43 @@ Defesa realizada por videoconferência.
      {\noindent\UFSM@textofolharosto}
      \end{minipage}
      \end{flushright}
-     
      \singlespacing
-%      \vspace{0.25\baselineskip}
+      \vspace{1\baselineskip}
       \begin{center}
-
      \singlespacing
      \textbf{Aprovado em \UFSM@dia~de \UFSM@mes~de \UFSM@ano:}
      \vspace{2.0\baselineskip}
-
-
-        
+     
         \if@orientador
         \ifthenelse{\equal{\@orientadorpresidente}{P} \OR \equal{\@orientadorpresidente}{M}}{%
         \vspace{1.0\baselineskip}
-        \noindent\rule{0.5\textwidth}{1.pt}\\
+        \noindent\rule{0.5\textwidth}{0.5pt}\\
         \noindent\textbf{\@orientadornome,~\@orientadortit.~(\@orientadorinst)~\UFSM@vconforip~\UFSM@vconforis}\\
-        \UFSM@sexoorientadornew\\}{}%
+        \textbf{\UFSM@sexoorientadornew}\\}{}%
         \fi
         
         
 	\if@coorientador
 	\ifthenelse{\equal{\@coorientadorpresidente}{P} \OR \equal{\@coorientadorpresidente}{M}}{%
 	\vspace{1.0\baselineskip}
-	\noindent\rule{0.5\textwidth}{1.pt}\\
-        \noindent\textbf{\@coorientadornome,~\@coorientadortit.~(\@coorientadorinst)~\UFSM@vconfcoorip~\UFSM@vconfcooris}\\
-	\UFSM@sexocoorientadornew\\}{}%
+	\noindent\rule{0.5\textwidth}{0.5pt}\\
+        \noindent\textbf{\@coorientadornome,~\@coorientadortit.~(\@coorientadorinst)~\UFSM@vconfcoorip~\UFSM@vconfcooris}\\\textbf{
+	\UFSM@sexocoorientadornew}\\}{}%
 	\fi
 	
         \if@supervisor
         \ifthenelse{\equal{\@supervisorpresidente}{P} \OR \equal{\@supervisorpresidente}{M}}{%
         \vspace{1.0\baselineskip}
-        \noindent\rule{0.5\textwidth}{1.pt}\\
+        \noindent\rule{0.5\textwidth}{0.5pt}\\
         \noindent\textbf{\@supervisornome,~\@supervisortit.~(\@supervisorinst)~\UFSM@vconfsupervisorp~\UFSM@vconfsupervisors}\\
-        \UFSM@sexosupervisornew\\}{}%
+        \textbf{\UFSM@sexosupervisornew}\\}{}%
         \fi	
 	
         
         \if@bancaum
         \ifthenelse{\equal{\@bancaumpresidente}{P} \OR \equal{\@bancaumpresidente}{M}}{%
         \vspace{1.0\baselineskip}
-        \noindent\rule{0.5\textwidth}{1.pt}\\
+        \noindent\rule{0.5\textwidth}{0.5pt}\\
         \noindent\textbf{\@bancaumnome,~\@bancaumtit.~(\@bancauminst)~\UFSM@vconfbancaump~\UFSM@vconfbancaums}\\
         \UFSM@sexobancaumnew\\}{}%
         \fi
@@ -1269,25 +1265,25 @@ Defesa realizada por videoconferência.
         
         \if@bancadois
         \vspace{1.0\baselineskip}
-        \noindent\rule{0.5\textwidth}{1.pt}\\
+        \noindent\rule{0.5\textwidth}{0.5pt}\\
         \noindent\textbf{\@bancadoisnome,~\@bancadoistit.~(\@bancadoisinst)~\UFSM@vconfbancadoisp~\UFSM@vconfbancadoiss}
         \fi
 	
         \if@bancatres
         \vspace{1.0\baselineskip}
-        \noindent\rule{0.5\textwidth}{1.pt}\\
+        \noindent\rule{0.5\textwidth}{0.5pt}\\
         \noindent\textbf{\@bancatresnome,~\@bancatrestit.~(\@bancatresinst)~\UFSM@vconfbancatresp~\UFSM@vconfbancatress}
         \fi
 
         \if@bancaquatro
         \vspace{1.0\baselineskip}
-        \noindent\rule{0.5\textwidth}{1.pt}\\
+        \noindent\rule{0.5\textwidth}{0.5pt}\\
         \noindent\textbf{\@bancaquatronome,~\@bancaquatrotit.~(\@bancaquatroinst)~\UFSM@vconfbancaquatrop~\UFSM@vconfbancaquatros}
         \fi
 
         \if@bancacinco
         \vspace{1.0\baselineskip}
-        \noindent\rule{0.5\textwidth}{1.pt}\\
+        \noindent\rule{0.5\textwidth}{0.5pt}\\
         \noindent\textbf{\@bancacinconome,~\@bancacincotit.~(\@bancacincoinst)~\UFSM@vconfbancacincop~\UFSM@vconfbancacincos}
         \fi
         

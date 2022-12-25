@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=latex 2022.12.24)  24 DEC 2022 20:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=latex 2022.12.24)  24 DEC 2022 21:20
 entering extended mode
  %&-line parsing enabled.
 **\let \APPmakepictures \empty \input  arquivo_2021.tex
@@ -1468,7 +1468,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  29473 strings out of 475386
  579028 string characters out of 2776932
- 1031791 words of memory out of 3000000
+ 1031810 words of memory out of 3000000
  50283 multiletter control sequences out of 15000+600000
  504121 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

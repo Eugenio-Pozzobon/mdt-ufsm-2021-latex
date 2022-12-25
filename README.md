@@ -12,9 +12,13 @@ Alterações implementadas em comparação com o tamplate da MDT 2015:
 8. Centralizar tabela de errata
 9. Inserir subtítulo do trabalho: capa, folha de rosto e folha de aprovação
 10. 'orientador' em minusculas na folha de rosto
+11.  Negritos na Folha de Aprovação e adequação do espaçamento
 
 Alterações a Fazer
 
-	Folha de Aprovação
-	Numeração das figuras/tabelas/ilustrações/quadros de forma sequencial 
-	Financiamento na página de catalografia
+* Numeração das figuras/tabelas/ilustrações/quadros de forma sequencial 
+* Financiamento na página de catalografia
+* Ambiente de bibliografia não funciona no texstudio
+
+-> Desenvolvido com base no manual da UFSM 2021 disponível em https://www.ufsm.br/app/uploads/sites/542/2021/12/Manual-de-Dissertac%CC%A7o%CC%83es-e-Teses_MDT_2021.pdf
+-> Disclaimer: esse template pode conter erros. Caso detecte algo, você pode entrar em contato pelo email eugenio.pozzobon@acad.ufsm.br para resolvermos.
