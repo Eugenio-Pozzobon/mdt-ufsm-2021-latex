@@ -4,9 +4,8 @@ Existem duas pastas neste repositório, a pasta do TexStudio contém os arquivos
 
 ### Configurações Necessárias nos compiladores
 
-No texstudio use o comando do PDFLATEX abaixo:
-	
-	pdflatex.exe -synctex=1 -interaction=nonstopmode --shell-escape %.tex
+* No texstudio acesse: opções>configurar o texstudio>compilação. Altere para o XeLaTeX 
+* No Overleaf acesse o menu do projeto e altere o compilador e selecone o XeLaTeX. Altere também a versão do texlive para a 2020 (legacy)
 
 ### Alterações implementadas em comparação com o tamplate da MDT 2015
 

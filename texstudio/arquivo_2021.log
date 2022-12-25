@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.2)  24 DEC 2022 23:19
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.12.25)  25 DEC 2022 00:29
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **./arquivo_2021.tex
 (arquivo_2021.tex
@@ -14,7 +14,7 @@ Package: appendix 2020/02/08 v1.2c extra appendix facilities
 Package appendix Warning: No \appendix command in this document class!
 (appendix)                Trying to create an appendix will probably fail.
 
-\c@@pps=\count185
+\c@@pps=\count181
 
 Package appendix Warning: There is no \chapter or \section command.
 (appendix)                The appendix package will not be used.
@@ -35,10 +35,10 @@ Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: xetex.def on input line 107.
 
-(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 \stockwidth=\dimen138
 \stockheight=\dimen139
 ))
@@ -46,14 +46,14 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \Gin@req@width=\dimen141
 ) (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
-\c@tracingmulticols=\count186
+\c@tracingmulticols=\count182
 \mult@box=\box51
 \multicol@leftmargin=\dimen142
-\c@unbalance=\count187
-\c@collectmore=\count188
-\doublecol@number=\count189
-\multicoltolerance=\count190
-\multicolpretolerance=\count191
+\c@unbalance=\count183
+\c@collectmore=\count184
+\doublecol@number=\count185
+\multicoltolerance=\count186
+\multicolpretolerance=\count187
 \full@width=\dimen143
 \page@free=\dimen144
 \premulticols=\dimen145
@@ -103,26 +103,28 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \@tempa=\box91
 \@tempa=\box92
 \@tempa=\box93
-\c@minrows=\count192
-\c@columnbadness=\count193
-\c@finalcolumnbadness=\count194
+\c@minrows=\count188
+\c@columnbadness=\count189
+\c@finalcolumnbadness=\count190
 \last@try=\dimen148
 \multicolovershoot=\dimen149
 \multicolundershoot=\dimen150
 \mult@nat@firstbox=\box94
 \colbreak@box=\box95
-\mc@col@check@num=\count195
-) (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+\mc@col@check@num=\count191
+)
+(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-)
-(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
-)
-(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/pstricks\pstricks.sty
-Package: pstricks 2022/19/23 v0.72 LaTeX wrapper for `PSTricks' (RN,HV)
 
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/pstricks\pstricks.sty
+Package: pstricks 2022/19/23 v0.72 LaTeX wrapper for `PSTricks' (RN,HV)
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
@@ -132,10 +134,9 @@ Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Driver file: xetex.def on input line 227.
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
@@ -156,21 +157,21 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks19
 \XKV@tempa@toks=\toks20
 )
-\XKV@depth=\count196
+\XKV@depth=\count192
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pstricks.tex
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pst-fp.tex
 `pst-fp' v0.06, 2020/11/20 (hv)
-\pstFP@xs=\count197
-\pstFP@xia=\count198
-\pstFP@xib=\count199
-\pstFP@xfa=\count266
-\pstFP@xfb=\count267
-\pstFP@rega=\count268
-\pstFP@regb=\count269
-\pstFP@regs=\count270
-\pstFP@times=\count271
+\pstFP@xs=\count193
+\pstFP@xia=\count194
+\pstFP@xib=\count195
+\pstFP@xfa=\count196
+\pstFP@xfb=\count197
+\pstFP@rega=\count198
+\pstFP@regb=\count199
+\pstFP@regs=\count266
+\pstFP@times=\count267
 )
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
 y
@@ -219,15 +220,15 @@ code.tex
 \pgf@ya=\dimen158
 \pgf@yb=\dimen159
 \pgf@yc=\dimen160
-\c@pgf@counta=\count272
-\c@pgf@countb=\count273
-\c@pgf@countc=\count274
-\c@pgf@countd=\count275
+\c@pgf@counta=\count268
+\c@pgf@countb=\count269
+\c@pgf@countc=\count270
+\c@pgf@countd=\count271
 )
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
 r.code.tex
 \pgfmath@dimen=\dimen161
-\pgfmath@count=\count276
+\pgfmath@count=\count272
 \pgfmath@box=\box97
 \pgfmath@toks=\toks25
 \pgfmath@stack@operand=\toks26
@@ -253,7 +254,7 @@ ions.misc.code.tex)
 ions.integerarithmetics.code.tex)))
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count277
+\c@pgfmathroundto@lastzeros=\count273
 )))
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
 code.tex
@@ -266,7 +267,7 @@ Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 \pgffor@stack=\toks28
 \pgffor@toks=\toks29
 ))
-\psLoopIndex=\count278
+\psLoopIndex=\count274
 
 `PSTricks' v3.17  <2022/10/23> (tvz,hv)
 \pst@dima=\dimen164
@@ -282,28 +283,30 @@ Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 \pst@hbox=\box98
 \pst@ibox=\box99
 \pst@boxg=\box100
-\pst@cnta=\count279
-\pst@cntb=\count280
-\pst@cntc=\count281
-\pst@cntd=\count282
-\pst@cntg=\count283
-\pst@cnth=\count284
-\pst@cntm=\count285
-\pst@cntn=\count286
-\pst@cnto=\count287
-\pst@cntp=\count288
-\@zero=\count289
+\pst@cnta=\count275
+\pst@cntb=\count276
+\pst@cntc=\count277
+\pst@cntd=\count278
+\pst@cntg=\count279
+\pst@cnth=\count280
+\pst@cntm=\count281
+\pst@cntn=\count282
+\pst@cnto=\count283
+\pst@cntp=\count284
+\@zero=\count285
 \pst@toks=\toks30
 --- We are running latex or xelatex ---
 
-(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pstricks.con
-)
+(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/xelatex/xetex-pstricks\pstric
+ks.con
+(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\xdvipdfmx.cf
+g))
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pstricks-col
 or.tex)
 \psunit=\dimen174
 \psxunit=\dimen175
 \psyunit=\dimen176
-\pst@C@@rType=\count290
+\pst@C@@rType=\count286
 \pslinewidth=\dimen177
 \psk@startLW=\dimen178
 \psk@endLW=\dimen179
@@ -327,16 +330,24 @@ s.tex)
 \sh@wgridXunit=\dimen188
 \sh@wgridYunit=\dimen189
 \pst@shift=\dimen190
-\ps@imagectr=\count291
+\ps@imagectr=\count287
 
-(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pstricks.con
-))
+(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/xelatex/xetex-pstricks\pstric
+ks.con
+(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\xdvipdfmx.cf
+g
+Using PSTricks configuration for LaTeX+dvipdfmx
+)))
 File: pstricks.tex 2022/10/23 v3.17 `PSTricks' (tvz,hv)
 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pst-fp.tex
 `pst-fp' v0.06, 2020/11/20 (hv))
 File: pst-fp.tex 2020/11/20 v0.06 `PST-fp' (hv)
-)
+
+>>> Loading XeTeX special macros
+
+(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/pstricks\pstricks-xet
+ex.def))
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/auto-pst-pdf\auto-pst-p
 df.sty
 Package: auto-pst-pdf 2020/10/08 v0.7 Wrapper for pst-pdf
@@ -349,7 +360,7 @@ ty
 Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
  (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
-Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
 .sty
@@ -365,7 +376,7 @@ Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode not found.
 )
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/catchfile\catchfile.s
 ty
@@ -375,39 +386,14 @@ Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )) (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-))
-\c@app@runs=\count292
-runsystem(echo " ")...executed.
+)
 
-runsystem(echo "-------------------------------------------------")...executed.
+Package ifplatform Warning: 
+    shell escape is disabled, so I can only detect \ifwindows.
 
-runsystem(echo "auto-pst-pdf: Auxiliary LaTeX compilation")...executed.
-
-runsystem(echo "-------------------------------------------------")...executed.
-
-runsystem(del "arquivo_2021-autopp.log")...executed.
-
-runsystem(latex -disable-write18 -jobname="arquivo_2021-autopp" -interaction=ba
-tchmode  "\let \APPmakepictures \empty \input  arquivo_2021.tex")...executed.
-
-
-
-Package auto-pst-pdf Warning: 
-    Creation of arquivo_2021-autopp.dvi failed.
-This warning occured on input line 128.
-
-
-Package auto-pst-pdf Warning: 
-    Could not create arquivo_2021-pics.pdf. Auxiliary files not deleted.
-This warning occured on input line 128.
-
-runsystem(echo "-------------------------------------------------")...executed.
-
-runsystem(echo "auto-pst-pdf: End auxiliary LaTeX compilation")...executed.
-
-runsystem(echo "-------------------------------------------------")...executed.
-
-(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/pst-pdf\pst-pdf.sty
+)
+\c@app@runs=\count288
+ (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/pst-pdf\pst-pdf.sty
 Package: pst-pdf 2020/10/10 v1.2f PS graphics for pdfLaTeX (RN,HjG)
 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
@@ -416,39 +402,20 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/luatex85\luatex85.sty
-Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
-)
-\c@pspicture=\count293
-Package pst-pdf Info: MODE: 1 (pdfTeX mode) on input line 213.
-\ppf@output=\toks33
-
-(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/preview\preview.sty
-Package: preview 2017/04/24 13.1 (AUCTeX/preview-latex)
-\pr@snippet=\count294
-\pr@box=\box101
-\pr@output=\toks34
-)
-(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
-Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.s
-ty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-)
-\@envbody=\toks35
-)))
+\c@pspicture=\count289
+Package pst-pdf Info: MODE: 9 (inactive mode) on input line 457.
+))
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count295
+\c@r@tfl@t=\count290
 \rotFPtop=\skip49
 \rotFPbot=\skip50
-\rot@float@box=\box102
-\rot@mess@toks=\toks36
+\rot@float@box=\box101
+\rot@mess@toks=\toks33
 )
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/pstricks-add\pstricks-a
 dd.sty
@@ -464,9 +431,9 @@ Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/multido\multido.tex
  v1.42, 2010/05/14 <tvz>
-\multido@count=\count296
-\multidocount=\count297
-\multido@stuff=\toks37
+\multido@count=\count291
+\multidocount=\count292
+\multido@stuff=\toks34
 )
 File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
 )
@@ -476,21 +443,21 @@ Package: pst-plot 2021/09/23 package wrapper for pst-plot.tex (hv)
 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/pst-tools\pst-tools.t
 ex `PST-tools' v0.12, 2021/09/23 (hv)
-\randomi=\count298
-\ranval=\count299
+\randomi=\count293
+\ranval=\count294
 )
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/pstricks-add\pstricks
 -add.tex
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/pst-node\pst-node.tex
  v1.43, 2022/01/31
-\psrow=\count300
-\pscol=\count301
-\psmatrixcnt=\count302
+\psrow=\count295
+\pscol=\count296
+\psmatrixcnt=\count297
 \psrowsep=\skip51
 \pscolsep=\skip52
-\pst@args=\count303
-\num@pts=\count304
-\pst@argcnt=\count305
+\pst@args=\count298
+\num@pts=\count299
+\pst@argcnt=\count300
 )
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/pst-arrow\pst-arrow.t
 ex `pst-arrow' v0.05, 2021/11/16 (dr,hv))
@@ -499,20 +466,20 @@ ex `pst-arrow' v0.05, 2021/11/16 (dr,hv))
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/pst-math\pst-math.tex
 `pst-math' v0.64 , (CJ,hv)) `pstricks-add' v3.91, 2021/09/25 (dr,hv)
 \psparallelogramsep=\dimen191
-\pst@cntC=\count306
-\pst@stepcount=\count307
+\pst@cntC=\count301
+\pst@stepcount=\count302
 \chart@ColorIndex=\dimen192
 \chart@ColorStep=\dimen193
 \pst@chartHeight=\dimen194
 \pst@chartStackDepth=\dimen195
 \pst@chartStackWidth=\dimen196
-\chart@Toggle=\count308
-\psVectorCtr=\count309
+\chart@Toggle=\count303
+\psVectorCtr=\count304
 )
  v1.93, 2021/09/23 (tvz,hv)
 \pstRadUnit=\dimen197
 \pstRadUnitInv=\dimen198
-\pst@linecnt=\count310
+\pst@linecnt=\count305
 \RCD@file=\read2
 \psxlabelsep=\dimen199
 \psylabelsep=\dimen256
@@ -523,7 +490,7 @@ ex `pst-arrow' v0.05, 2021/11/16 (dr,hv))
 \pst@yticksizeA=\dimen261
 \pst@yticksizeB=\dimen262
 \pst@yticksizeC=\dimen263
-\@digitcounter=\count311
+\@digitcounter=\count306
 \psk@llx=\dimen264
 \psk@lly=\dimen265
 \psk@urx=\dimen266
@@ -559,20 +526,23 @@ e.sty
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2022-09-28 L3 programming layer (loader) 
 
-(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count312
-\l__pdf_internal_box=\box103
+(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xet
+ex.def
+File: l3backend-xetex.def 2022-09-28 L3 backend support: XeTeX
+\g__graphics_track_int=\count307
+\l__pdf_internal_box=\box102
+\g__pdf_backend_object_int=\count308
+\g__pdf_backend_annotation_int=\count309
+\g__pdf_backend_link_int=\count310
 ))
 Package: xparse 2022-06-22 L3 Experimental document command parser
 )
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2022-10-23 v3.1.9 A comprehensive (SI) units package
 \l__siunitx_angle_tmp_dim=\dimen270
-\l__siunitx_angle_marker_box=\box104
-\l__siunitx_angle_unit_box=\box105
-\l__siunitx_compound_count_int=\count313
+\l__siunitx_angle_marker_box=\box103
+\l__siunitx_angle_unit_box=\box104
+\l__siunitx_compound_count_int=\count311
 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
 ns.sty
@@ -581,60 +551,60 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count314
+\etb@tempcnta=\count312
 ))
-\l__siunitx_number_exponent_fixed_int=\count315
-\l__siunitx_number_min_decimal_int=\count316
-\l__siunitx_number_min_integer_int=\count317
-\l__siunitx_number_round_precision_int=\count318
-\l__siunitx_number_group_first_int=\count319
-\l__siunitx_number_group_size_int=\count320
-\l__siunitx_number_group_minimum_int=\count321
+\l__siunitx_number_exponent_fixed_int=\count313
+\l__siunitx_number_min_decimal_int=\count314
+\l__siunitx_number_min_integer_int=\count315
+\l__siunitx_number_round_precision_int=\count316
+\l__siunitx_number_group_first_int=\count317
+\l__siunitx_number_group_size_int=\count318
+\l__siunitx_number_group_minimum_int=\count319
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks38
+\@emptytoks=\toks35
 \ex@=\dimen271
 ))
-\l__siunitx_table_tmp_box=\box106
+\l__siunitx_table_tmp_box=\box105
 \l__siunitx_table_tmp_dim=\dimen272
 \l__siunitx_table_column_width_dim=\dimen273
-\l__siunitx_table_integer_box=\box107
-\l__siunitx_table_decimal_box=\box108
-\l__siunitx_table_before_box=\box109
-\l__siunitx_table_after_box=\box110
+\l__siunitx_table_integer_box=\box106
+\l__siunitx_table_decimal_box=\box107
+\l__siunitx_table_before_box=\box108
+\l__siunitx_table_after_box=\box109
 \l__siunitx_table_before_dim=\dimen274
 \l__siunitx_table_carry_dim=\dimen275
-\l__siunitx_unit_tmp_int=\count322
-\l__siunitx_unit_position_int=\count323
-\l__siunitx_unit_total_int=\count324
+\l__siunitx_unit_tmp_int=\count320
+\l__siunitx_unit_position_int=\count321
+\l__siunitx_unit_total_int=\count322
 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen276
-\ar@mcellbox=\box111
+\ar@mcellbox=\box110
 \extrarowheight=\dimen277
-\NC@list=\toks39
+\NC@list=\toks36
 \extratabsurround=\skip53
 \backup@length=\skip54
-\ar@cellbox=\box112
+\ar@cellbox=\box111
 )))
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
-\integerpart=\count325
-\decimalpart=\count326
+\integerpart=\count323
+\decimalpart=\count324
 )
 Package: xstring 2021/07/21 v1.84 String manipulations (CT)
 )
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/pst-math\pst-math.tex
 )
 File: pst-math.tex 2021/09/23 v1.93 `PST-math' (hv)
-\c@Rand@No=\count327
-\c@Random@Left=\count328
-\c@Random@Right=\count329
-\c@Random@No@max=\count330
+\c@Rand@No=\count325
+\c@Random@Left=\count326
+\c@Random@Right=\count327
+\c@Random@No@max=\count328
 )
 Package: pstricks-add 2021/09/10 v. 0.17 package wrapper for pstricks-add.tex (
 hv)
@@ -662,17 +632,12 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
-(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-)))
+
+Package epstopdf Warning: Drivers other than `pdftex' and `luatex' are not supp
+orted.
+
+))
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2021/12/15 v3.1 ragged2e Package
 \CenteringLeftskip=\skip55
@@ -699,8 +664,8 @@ othing on input line 51.
 
 ) (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks40
-\verbatim@line=\toks41
+\every@verbatim=\toks37
+\verbatim@line=\toks38
 \verbatim@in@stream=\read3
 )
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -708,15 +673,15 @@ Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count331
-\c@chapter=\count332
-\c@section=\count333
-\c@subsection=\count334
-\c@subsubsection=\count335
-\c@paragraph=\count336
-\c@subparagraph=\count337
-\c@figure=\count338
-\c@table=\count339
+\c@part=\count329
+\c@chapter=\count330
+\c@section=\count331
+\c@subsection=\count332
+\c@subsubsection=\count333
+\c@paragraph=\count334
+\c@subparagraph=\count335
+\c@figure=\count336
+\c@table=\count337
 \abovecaptionskip=\skip69
 \belowcaptionskip=\skip70
 \bibindent=\dimen278
@@ -747,26 +712,22 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count340
+\c@section@level=\count338
 )
 \@linkdim=\dimen279
-\Hy@linkcounter=\count341
-\Hy@pagecounter=\count342
+\Hy@linkcounter=\count339
+\Hy@pagecounter=\count340
 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2022-09-22 v7.00t Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
 )
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count343
+\Hy@SavedSpaceFactor=\count341
 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2022-09-22 v7.00t Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Hyper figures OFF on input line 4162.
 Package hyperref Info: Link nesting OFF on input line 4167.
@@ -775,7 +736,7 @@ Package hyperref Info: Plain pages OFF on input line 4177.
 Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4410.
-\c@Hy@tempcnt=\count344
+\c@Hy@tempcnt=\count342
 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
@@ -792,7 +753,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count345
+\Fld@menulength=\count343
 \Field@Width=\dimen281
 \Fld@charsize=\dimen282
 Package hyperref Info: Hyper figures OFF on input line 6027.
@@ -807,19 +768,22 @@ Package hyperref Info: PDF/A mode OFF on input line 6057.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count346
-\c@Item=\count347
-\c@Hfootnote=\count348
+\Hy@abspage=\count344
+\c@Item=\count345
+\c@Hfootnote=\count346
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
-(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2022-09-22 v7.00t Hyperref driver for pdfTeX
+Package hyperref Info: Driver (autodetected): hxetex.
+(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+File: hxetex.def 2022-09-22 v7.00t Hyperref driver for XeTeX
 
-(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
-kage
-with kernel methods
+(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
+)
+\pdfm@box=\box112
+\c@Hy@AnnotLevel=\count347
+\HyField@AnnotCount=\count348
 \Fld@listcount=\count349
 \c@bookmark@seq@number=\count350
 
@@ -827,6 +791,11 @@ with kernel methods
 echeck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
+(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
 ounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
@@ -863,14 +832,15 @@ Package: relsize 2013/03/29 ver 4.1
 \biblabelsep=\skip77
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
-\ABCItoken=\toks42
+\ABCItoken=\toks39
 ) (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2022/10/04 3.81 The Babel package
 \babel@savecnt=\count356
 \U@D=\dimen285
 \l@unhyphenated=\language79
 
-(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def
+(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def))
 \bbl@readstream=\read4
 \bbl@dirlevel=\count357
 
@@ -889,7 +859,12 @@ Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
 Package babel Info: Making " an active character on input line 143.
 )) (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+
+(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
@@ -920,11 +895,11 @@ Pictures in Paragraphs. Version 1.2a, July 13, 1993
 \lwindowsep=\dimen295
 \rwindowsep=\dimen296
 \cumpar=\dimen297
-\twa=\toks43
-\la=\toks44
-\ra=\toks45
-\ha=\toks46
-\pictoc=\toks47
+\twa=\toks40
+\la=\toks41
+\ra=\toks42
+\ha=\toks43
+\pictoc=\toks44
 \rawtext=\box113
 \holder=\box114
 \windowbox=\box115
@@ -988,27 +963,27 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \dotsspace@=\muskip17
 \c@parentequation=\count377
 \dspbrk@lvl=\count378
-\tag@help=\toks48
+\tag@help=\toks45
 \row@=\count379
 \column@=\count380
 \maxfields@=\count381
-\andhelp@=\toks49
+\andhelp@=\toks46
 \eqnshift@=\dimen300
 \alignsep@=\dimen301
 \tagshift@=\dimen302
 \tagwidth@=\dimen303
 \totwidth@=\dimen304
 \lineht@=\dimen305
-\@envbody=\toks50
+\@envbody=\toks47
 \multlinegap=\skip79
 \multlinetaggap=\skip80
-\mathdisplay@stack=\toks51
+\mathdisplay@stack=\toks48
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks52
+\@enLab=\toks49
 )
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -1034,9 +1009,9 @@ This is `epsf.tex' v2.7.4 <14 February 2011>
 ) (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count382
-\float@exts=\toks53
+\float@exts=\toks50
 \float@box=\box128
-\@float@everytoks=\toks54
+\@float@everytoks=\toks51
 \@floatcapt=\box129
 )
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
@@ -1101,13 +1076,13 @@ Lista de Quadros, name=Quadro, placement=tbhp, within=chapter, ' on input line
 \c@quadro=\count384
 Package newfloat Info: float type `quadro'=4 on input line 90.
 Package newfloat Info: New float `grafico' with options ` fileext=logg, listnam
-e=Lista de Gráficos, name=Gráfico, placement=tbhp, within=chapter, ' on input
- line 99.
+e=Lista de Gráficos, name=Gráfico, placement=tbhp, within=chapter, ' on input l
+ine 99.
 \c@grafico=\count385
 Package newfloat Info: float type `grafico'=8 on input line 99.
 Package newfloat Info: New float `ilustracao' with options ` fileext=loi, listn
-ame=Lista de Ilustrações, name=Ilustração, placement=tbhp, within=chapter, 
-' on input line 107.
+ame=Lista de Ilustrações, name=Ilustração, placement=tbhp, within=chapter, ' on
+ input line 107.
 \c@ilustracao=\count386
 Package newfloat Info: float type `ilustracao'=16 on input line 107.
 
@@ -1167,6 +1142,14 @@ LaTeX Font Info:    ... okay on input line 280.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 280.
 LaTeX Font Info:    ... okay on input line 280.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 280.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+80.
+
+(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 280.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 280.
 LaTeX Font Info:    ... okay on input line 280.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 280.
 LaTeX Font Info:    ... okay on input line 280.
@@ -1176,24 +1159,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 280.
 LaTeX Font Info:    ... okay on input line 280.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 280.
 LaTeX Font Info:    ... okay on input line 280.
-
-(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count392
-\scratchdimen=\dimen322
-\scratchbox=\box130
-\nofMPsegments=\count393
-\nofMParguments=\count394
-\everyMPshowfont=\toks55
-\MPscratchCnt=\count395
-\MPscratchDim=\dimen323
-\MPnumerator=\count396
-\makeMPintoPDFobject=\count397
-\everyMPtoPDFconversion=\toks56
-)
-Preview: Fontsize 12pt
-Preview: PDFoutput 1
 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
 slations-basic-dictionary-brazil.trsl
@@ -1261,29 +1226,16 @@ Package newfloat Info: Trying Plan B...
 Package newfloat Info: `float' package detected.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 16.41594pt on input line 285.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 15.20108pt on input line 285.
 [1
-Non-PDF special ignored!
-<special> header=pstricks.pro
-Non-PDF special ignored!
-<special> header=pst-algparser.pro
-Non-PDF special ignored!
-<special> header=pst-tools.pro
-Non-PDF special ignored!
-<special> header=pst-dots.pro
-Non-PDF special ignored!
-<special> ps: /pssetRGBcolor /setrgbcolor load def /pssetCMYKcolor /setcmyk...
-Non-PDF special ignored!
-<special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
-Non-PDF special ignored!
-<special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
-Non-PDF special ignored!
-<special> ps:0.8 setlinewidth 0 setgray
 
-{C:/Users/eugen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+]
 Underfull \hbox (badness 1715) in paragraph at lines 285--285
 \T1/phv/m/n/12 Tese de Dou-to-rado apre-sen-tada ao Pro-
  []
@@ -1299,17 +1251,14 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 7.59998pt on input line 285.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 5.69998pt on input line 285.
-<ficha_catalografica.pdf, id=50, 597.51233pt x 845.0471pt>
 File: ficha_catalografica.pdf Graphic file (type pdf)
 <use ficha_catalografica.pdf>
-Package pdftex.def Info: ficha_catalografica.pdf  used on input line 285.
-(pdftex.def)             Requested size: 455.7043pt x 622.70418pt.
 
 Overfull \hbox (0.46022pt too wide) in paragraph at lines 285--285
 [] 
  []
 
-[2] [3 <./ficha_catalografica.pdf>] [4]
+[2] [3] [4]
 Underfull \hbox (badness 1715) in paragraph at lines 285--285
 \T1/phv/m/n/12 Tese de Dou-to-rado apre-sen-tada ao Pro-
  []
@@ -1317,24 +1266,13 @@ Underfull \hbox (badness 1715) in paragraph at lines 285--285
 
 Overfull \vbox (3.0pt too high) has occurred while \output is active []
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.285 \pretextual
-                   %%%% GERA AS PAGINAS PRE-TEXTUAIS [3]
+ [3]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 285.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 11.39996pt on input line 285.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.285 \pretextual
-                   %%%% GERA AS PAGINAS PRE-TEXTUAIS [4
+[4
 
 ] [5
 
@@ -1533,17 +1471,17 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 6.64998pt on input line 309.
 
 Overfull \hbox (2.92654pt too wide) in paragraph at lines 309--310
-\T1/phv/m/n/12 clas-ses de ci-ta-��es. To-das elas po-dem ser usa-das com o $\O
+\T1/phv/m/n/12 clas-ses de ci-ta-ções. To-das elas po-dem ser usa-das com o $\O
 MS/cmsy/m/n/12 n$\T1/phv/m/sl/12 cite$\OMS/cmsy/m/n/12 f$\T1/phv/m/sl/12 label$
 \OMS/cmsy/m/n/12 g$ \T1/phv/m/n/12 ou $\OMS/cmsy/m/n/12 n$\T1/phv/m/sl/12 citeo
 nline$\OMS/cmsy/m/n/12 f$\T1/phv/m/sl/12 label$\OMS/cmsy/m/n/12 g$\T1/phv/m/n/1
 2 ,
  []
 
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
 15.
-(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+(C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
 LaTeX Warning: Citation `tcc:mintegui2014' on page 19 undefined on input line 3
@@ -1611,8 +1549,8 @@ LaTeX Warning: Citation `site:wrfhome' on page 19 undefined on input line 332.
 [19
 
 ]
-Overfull \hbox (1.59436pt too wide) in paragraph at lines 344--344
-[]\T1/cmtt/m/n/12 Sobre a circula��o geral da atmosfera pode-se dizer que os ve
+Overfull \hbox (1.70615pt too wide) in paragraph at lines 344--344
+[]\T1/lmtt/m/n/12 Sobre a circulação geral da atmosfera pode-se dizer que os ve
 ntos do norte 
  []
 
@@ -1671,16 +1609,13 @@ LaTeX Warning: Citation `livro:halliday28ed' on page 22 undefined on input line
  451.
 
 
-Overfull \hbox (20.11484pt too wide) in paragraph at lines 461--461
-[]\T1/cmtt/m/n/12 \caption{\label{exepretex}Sequ�ncia dos elementros pr�-testua
+Overfull \hbox (20.23116pt too wide) in paragraph at lines 461--461
+[]\T1/lmtt/m/n/12 \caption{\label{exepretex}Sequência dos elementros pré-testua
 is da MDT-UFSM.}[] 
  []
 
-<figuras/pretextuais.png, id=195, 579.66562pt x 306.39468pt>
-File: figuras/pretextuais.png Graphic file (type png)
-<use figuras/pretextuais.png>
-Package pdftex.def Info: figuras/pretextuais.png  used on input line 471.
-(pdftex.def)             Requested size: 273.14922pt x 144.37953pt.
+File: figuras/pretextuais.png Graphic file (type bmp)
+<figuras/pretextuais.png>
 
 LaTeX Warning: Citation `man:MDTUFSM2015' on page 22 undefined on input line 47
 2.
@@ -1690,24 +1625,22 @@ Overfull \vbox (6.38434pt too high) has occurred while \output is active []
 
 
 [22]
-Overfull \hbox (20.11484pt too wide) in paragraph at lines 479--479
-[]\T1/cmtt/m/n/12 \caption{\label{exepretex1}Sequ�ncia dos elementros pr�-testu
+Overfull \hbox (20.23116pt too wide) in paragraph at lines 479--479
+[]\T1/lmtt/m/n/12 \caption{\label{exepretex1}Sequência dos elementros pré-testu
 ais da MDT-UFSM}[] 
  []
 
 Package hyperref Info: bookmark level for unknown ilustracao defaults to 0 on i
 nput line 487.
-File: figuras/pretextuais.png Graphic file (type png)
-<use figuras/pretextuais.png>
-Package pdftex.def Info: figuras/pretextuais.png  used on input line 489.
-(pdftex.def)             Requested size: 273.14922pt x 144.37953pt.
+File: figuras/pretextuais.png Graphic file (type bmp)
+<figuras/pretextuais.png>
 
 LaTeX Warning: Citation `man:MDTUFSM2015' on page 23 undefined on input line 49
 0.
 
 
-Overfull \hbox (26.28833pt too wide) in paragraph at lines 498--498
-[]\T1/cmtt/m/n/12 \caption{\label{exepretex3} Um exemplo de utiliza��o do ambie
+Overfull \hbox (26.40616pt too wide) in paragraph at lines 498--498
+[]\T1/lmtt/m/n/12 \caption{\label{exepretex3} Um exemplo de utilização do ambie
 nte ``grafico''.}[] 
  []
 
@@ -1715,19 +1648,16 @@ nte ``grafico''.}[]
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
 
-[23 <./figuras/pretextuais.png>]
+[23]
 Package hyperref Info: bookmark level for unknown grafico defaults to 0 on inpu
 t line 504.
-<figuras/estrutura_com.pdf, id=205, 1373.13pt x 1084.05pt>
 File: figuras/estrutura_com.pdf Graphic file (type pdf)
 <use figuras/estrutura_com.pdf>
-Package pdftex.def Info: figuras/estrutura_com.pdf  used on input line 506.
-(pdftex.def)             Requested size: 273.14922pt x 215.63173pt.
 
 Overfull \vbox (6.38434pt too high) has occurred while \output is active []
 
 
-[24 <./figuras/estrutura_com.pdf>] [25
+[24] [25
 
 ]
 No file arquivo_2021.bbl.
@@ -1747,12 +1677,6 @@ Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
 
 [28]
-pdfTeX warning (ext4): destination with the same identifier (name{appendix.A}) 
-has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.547 \chapter{Algo interessante que alguém fez}
-                                                 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\noindent' on input line 547.
@@ -1760,11 +1684,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [29
 
 ]
-<figuras/lombada.png, id=239, 441.90094pt x 423.08063pt>
-File: figuras/lombada.png Graphic file (type png)
-<use figuras/lombada.png>
-Package pdftex.def Info: figuras/lombada.png  used on input line 554.
-(pdftex.def)             Requested size: 273.14922pt x 261.52614pt.
+File: figuras/lombada.png Graphic file (type bmp)
+<figuras/lombada.png>
 
 
 LaTeX Warning: Citation `man:MDTUFSM2015' on page 30 undefined on input line 55
@@ -1778,7 +1699,7 @@ Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
 
-[31 <./figuras/lombada.png>]
+[31]
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
 
@@ -1794,28 +1715,12 @@ Package rerunfilecheck Info: File `arquivo_2021.out' has not changed.
 (rerunfilecheck)             Checksum: 63D30DC07483F2C2D0F75CBBAC6E721B;1897.
  ) 
 Here is how much of TeX's memory you used:
- 29824 strings out of 475385
- 581582 string characters out of 2776907
- 1027975 words of memory out of 3000000
- 50545 multiletter control sequences out of 15000+600000
- 517054 words of font info for 91 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 117i,9n,131p,678b,1061s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\eugen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
-1200.pk>{C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.e
-nc}<C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmmi12.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr10.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/eugen/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/eugen/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/eugen/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/eugen/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/eugen/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on arquivo_2021.pdf (35 pages, 549893 bytes).
-PDF statistics:
- 383 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 29301 strings out of 410532
+ 558723 string characters out of 2813298
+ 1016323 words of memory out of 3000000
+ 49985 multiletter control sequences out of 15000+600000
+ 505853 words of font info for 81 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 117i,9n,131p,678b,941s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
+Output written on arquivo_2021.pdf (35 pages).

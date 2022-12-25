@@ -722,7 +722,7 @@ Defesa realizada por videoconferência.
 
 
 \if@twoside
-\renewcommand{}{\@startsection{chapter}{1}{\z@}%
+\renewcommand{\chapter}{\@startsection{chapter}{1}{\z@}%
 {-3.5ex \@plus -1ex \@minus -.2ex}%
 {2\baselineskip}%
 {\cleardoublepage\phantomsection\thispagestyle{empty}\reset@font\bfseries\MakeUppercase}}
