@@ -1019,49 +1019,46 @@ Defesa realizada por videoconferência.
 \let\origa@paragraph\paragraphappendix
 \g@addto@macro\anexo{\let\paragraph\anexo@paragraph}
 
-
-
-
-% % % % INICIA ambiente bibliografia
-\newcommand\bibliografia[1]{
-\if@twoside
-\renewcommand{\chapter}{\@startsection{chapter}{1}{\z@}%
-   {-3.5ex \@plus -1ex \@minus -.2ex}%
-   {2\baselineskip}%
-   {\cleardoublepage\phantomsection\centering\thispagestyle{empty}\reset@font\bfseries\MakeUppercase}}
-\else
-\renewcommand{\chapter}{\@startsection{chapter}{1}{\z@}%
-   {-3.5ex \@plus -1ex \@minus -.2ex}%
-   {2\baselineskip}%
-   {\clearpage\phantomsection\centering\thispagestyle{empty}\reset@font\bfseries\MakeUppercase}}
-\fi
-   \bibliography{#1}
-
-}
-    \renewenvironment{thebibliography}[1]
-    {\chapter*{\refname}%
-    \addcontentsline{toc}{chapter}{\hspace{\@tempdima}\noindent\bibname}
-    \@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
-    \list{\@biblabel{\@arabic\c@enumiv}}%
-    {\settowidth\labelwidth{\@biblabel{#1}}%
-    \leftmargin\labelwidth
-    \advance\leftmargin\labelsep
-    \@openbib@code
-    \usecounter{enumiv}%
-    \let\p@enumiv\@empty
-    \renewcommand\theenumiv{\@arabic\c@enumiv}}%
-    \singlespacing
-    \setlength{\baselineskip}{12pt}
-    \setlength{\parskip}{1.\baselineskip}
-    \sloppy
-    \clubpenalty4000
-    \@clubpenalty \clubpenalty
-    \widowpenalty4000%
-    \sfcode`\.\@m}
-    {\def\@noitemerr
-    {\@latex@warning{Empty `thebibliography' environment}}%
-    \endlist}
-
+ 
+ % % % % INICIA ambiente bibliografia
+ \newcommand\startbibliography{
+ 	\if@twoside
+ 	\renewcommand{\chapter}{\@startsection{chapter}{1}{\z@}%
+ 		{-3.5ex \@plus -1ex \@minus -.2ex}%
+ 		{2\baselineskip}%
+ 		{\cleardoublepage\phantomsection\centering\thispagestyle{empty}\reset@font\bfseries\MakeUppercase}}
+ 	\else
+ 	\renewcommand{\chapter}{\@startsection{chapter}{1}{\z@}%
+ 		{-3.5ex \@plus -1ex \@minus -.2ex}%
+ 		{2\baselineskip}%
+ 		{\clearpage\phantomsection\centering\thispagestyle{empty}\reset@font\bfseries\MakeUppercase}}
+ 	\fi 	
+ }
+ \renewenvironment{thebibliography}[1]
+ {\chapter*{\refname}%
+ 	\addcontentsline{toc}{chapter}{\hspace{\@tempdima}\noindent\bibname}
+ 	\@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
+ 	\list{\@biblabel{\@arabic\c@enumiv}}%
+ 	{\settowidth\labelwidth{\@biblabel{#1}}%
+ 		\leftmargin\labelwidth
+ 		\advance\leftmargin\labelsep
+ 		\@openbib@code
+ 		\usecounter{enumiv}%
+ 		\let\p@enumiv\@empty
+ 		\renewcommand\theenumiv{\@arabic\c@enumiv}}%
+ 	\singlespacing
+ 	\setlength{\baselineskip}{12pt}
+ 	\setlength{\parskip}{1.\baselineskip}
+ 	\sloppy
+ 	\clubpenalty4000
+ 	\@clubpenalty \clubpenalty
+ 	\widowpenalty4000%
+ 	\sfcode`\.\@m}
+ {\def\@noitemerr
+ 	{\@latex@warning{Empty `thebibliography' environment}}%
+ 	\endlist}
+ 
+ 
  
  % % % % REDEFINICOES DE COMANDOS
 % % % APUD -> FAZ O APUD NO FORMATO UFSM
@@ -1570,7 +1567,6 @@ Defesa realizada por videoconferência.
 \end{listofsymbols} 
 
 }
-
 
 \newcommand\pretextual{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

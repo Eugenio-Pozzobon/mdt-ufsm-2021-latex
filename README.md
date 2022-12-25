@@ -25,12 +25,8 @@ Existem duas pastas neste repositório, a pasta do TexStudio contém os arquivos
 * Nova Ficha catalográfica
 
 ### Bugs Corrigidos para o TexStudio
-* Arquivo tocstyle necessário para compilação
+* Arquivo tocstyle adicionado na pasta para compilação
 * Ambiente de bibliografia não compilava corretamente 
-
-Alterações a Fazer
-
-* Ambiente de bibliografia não funciona no texstudio
 
 
 -> Desenvolvido com base no manual da UFSM 2021 disponível em https://www.ufsm.br/app/uploads/sites/542/2021/12/Manual-de-Dissertac%CC%A7o%CC%83es-e-Teses_MDT_2021.pdf
