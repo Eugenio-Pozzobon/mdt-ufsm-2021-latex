@@ -31,4 +31,4 @@ Existem duas pastas neste repositório, a pasta do TexStudio contém os arquivos
 
 -> Desenvolvido com base no manual da UFSM 2021 disponível em https://www.ufsm.br/app/uploads/sites/542/2021/12/Manual-de-Dissertac%CC%A7o%CC%83es-e-Teses_MDT_2021.pdf
 
--> Disclaimer: esse template pode conter erros. Caso detecte algo, você pode entrar em contato pelo email eugenio.pozzobon@acad.ufsm.br para resolvermos.
+-> Disclaimer: esse template não é oficial e pode conter erros. Caso verifique algum problema, você pode entrar em contato pelo email eugenio.pozzobon@acad.ufsm.br para resolvermos.
