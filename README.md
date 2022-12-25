@@ -1,6 +1,6 @@
 # Template MDT UFSM 2021 em LaTeX
 
-Existem duas pastas neste repositório, a pasta do TexStudio contém os arquivos necessários para compilar o documento em editores para desktop, de forma offline. Na pasta do Overleaf, constam os aquivos que funcionarão no editor online. Esses arquivos podem ser facilmente copiados usando este link do template: 
+Existem duas pastas neste repositório, a pasta do TexStudio contém os arquivos necessários para compilar o documento em editores para desktop, de forma offline. Na pasta do Overleaf, constam os aquivos que funcionarão no editor online.  
 
 ### Configurações Necessárias nos compiladores
 
