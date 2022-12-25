@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.12.25)  25 DEC 2022 00:57
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.12.25)  25 DEC 2022 01:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1404,7 +1404,7 @@ number indent by \l@... (toc, 2):  43.31989pt
 text indent by \l@... (toc, 2):  36.47984pt
 number indent by parent (toc, 2):  33.58394pt
 text indent calculated (toc, 2): 31.05302pt
-number indent calculated (toc, 2): 33.58394pt
+number indent calculated (toc, 2): 38.6456pt
 text noindent (toc, 2): 50.06776pt
 number noindent (toc, 2): 0.0pt
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
@@ -1413,16 +1413,16 @@ LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
 (Font)              scaled to size 11.39996pt on input line 5.
 number indent by \l@... (toc, 3):  79.79974pt
 text indent by \l@... (toc, 3):  46.73991pt
-number indent by parent (toc, 3):  64.63696pt
+number indent by parent (toc, 3):  69.69862pt
 text indent calculated (toc, 3): 40.5604pt
-number indent calculated (toc, 3): 64.63696pt
+number indent calculated (toc, 3): 74.37291pt
 text noindent (toc, 3): 50.06776pt
 number noindent (toc, 3): 0.0pt
 number indent by \l@... (toc, 4):  113.99963pt
 text indent by \l@... (toc, 4):  56.99982pt
-number indent by parent (toc, 4):  105.19736pt
+number indent by parent (toc, 4):  114.9333pt
 text indent calculated (toc, 4): 50.06776pt
-number indent calculated (toc, 4): 105.19736pt
+number indent calculated (toc, 4): 120.36014pt
 text noindent (toc, 4): 50.06776pt
 number noindent (toc, 4): 0.0pt
 number indent by \l@... (toc, 0):  0.0pt
@@ -1571,7 +1571,7 @@ Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 [29]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\noindent' on input line 538.
+(hyperref)                removing `\noindent' on input line 537.
 
 [30
 
@@ -1582,7 +1582,7 @@ Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 [31]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\noindent' on input line 548.
+(hyperref)                removing `\noindent' on input line 547.
 
 [32
 
@@ -1612,7 +1612,7 @@ Package rerunfilecheck Info: File `arquivo_2021.out' has not changed.
 Here is how much of TeX's memory you used:
  29336 strings out of 410532
  559439 string characters out of 2813298
- 1022963 words of memory out of 3000000
+ 1022962 words of memory out of 3000000
  50018 multiletter control sequences out of 15000+600000
  504220 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
