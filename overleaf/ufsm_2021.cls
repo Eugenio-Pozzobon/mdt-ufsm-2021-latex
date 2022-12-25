@@ -80,7 +80,6 @@
 \settocstylefeature[4]{entryhook}{\it}
 
 
-
 \usepackage{newfloat}
 \DeclareFloatingEnvironment[
     fileext=los,
@@ -107,6 +106,11 @@
   within=chapter,
   ]{ilustracao}
 
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+\counterwithout{ilustracao}{chapter}
+\counterwithout{grafico}{chapter}
+\counterwithout{quadro}{chapter}
 
 \usepackage[]{caption}
 
@@ -718,7 +722,7 @@ Defesa realizada por videoconferência.
 
 
 \if@twoside
-\renewcommand{\chapter}{\@startsection{chapter}{1}{\z@}%
+\renewcommand{}{\@startsection{chapter}{1}{\z@}%
 {-3.5ex \@plus -1ex \@minus -.2ex}%
 {2\baselineskip}%
 {\cleardoublepage\phantomsection\thispagestyle{empty}\reset@font\bfseries\MakeUppercase}}
@@ -779,7 +783,7 @@ Defesa realizada por videoconferência.
 	\advance\leftskip 3\@tempdima
 	\hskip -\leftskip
 	  \renewcommand*\numberline[1]{##1\hspace{.3em}--\hspace{.3em}}
-        \tablename~\hspace{.3em}#1\nobreak \dotfill\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
+        \MakeUppercase{\tablename}~\hspace{.3em}#1\nobreak \dotfill\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
 	\penalty\@highpenalty
 	\endgroup
 	\fi}
@@ -795,7 +799,7 @@ Defesa realizada por videoconferência.
 	  \advance\leftskip 3\@tempdima
 	  \hskip -\leftskip
 	  \renewcommand*\numberline[1]{##1\hspace{.3em}--\hspace{.3em}}
-	  \figurename\hspace{.3em}#1 \nobreak\dotfill\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
+	  \MakeUppercase{\figurename}\hspace{.3em}#1 \nobreak\dotfill\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
 	  \penalty\@highpenalty
 	  \endgroup
 	  \fi}
@@ -811,7 +815,7 @@ Defesa realizada por videoconferência.
 	    \advance\leftskip 3\@tempdima
 	    \hskip -\leftskip
 	    \renewcommand*\numberline[1]{##1\hspace{.3em}--\hspace{.3em}}
-	    \quadroname\hspace{.3em}#1 \nobreak\dotfill\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
+	    \MakeUppercase{\quadroname}\hspace{.3em}#1 \nobreak\dotfill\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
 	    \penalty\@highpenalty
 	    \endgroup
 	    \fi}
@@ -827,7 +831,7 @@ Defesa realizada por videoconferência.
 	    \advance\leftskip 3\@tempdima
 	    \hskip -\leftskip
 	    \renewcommand*\numberline[1]{##1\hspace{.3em}--\hspace{.3em}}
-	    \graficoname\hspace{.3em}#1 \nobreak\dotfill\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
+	    \MakeUppercase{\graficoname}\hspace{.3em}#1 \nobreak\dotfill\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
 	    \penalty\@highpenalty
 	    \endgroup
 	    \fi}
@@ -844,7 +848,7 @@ Defesa realizada por videoconferência.
 	      \advance\leftskip 3\@tempdima
 	      \hskip -\leftskip
 	      \renewcommand*\numberline[1]{##1\hspace{.3em}--\hspace{.3em}}
-	      \ilustracaoname\hspace{.3em}#1 \nobreak\dotfill\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
+	      \MakeUppercase{\ilustracaoname}\hspace{.3em}#1 \nobreak\dotfill\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
 	      \penalty\@highpenalty
 	      \endgroup
 	      \fi}  
@@ -1148,30 +1152,30 @@ Defesa realizada por videoconferência.
 
 %%%%%%%% Ficha catalografica
 \newcommand{\UFSM@fichacatalografica}{
-\vspace*{\fill}
-\includegraphics[trim=\UFSM@leftcat cm \UFSM@bottomcat cm \UFSM@rightcat cm \UFSM@topcat cm,clip,scale=1.0]{ficha_catalografica.pdf}
-\singlespacing
-{\footnotesize
-\noindent\rule{\textwidth}{1.1pt}\\
-\noindent$\text{\copyright}$\UFSM@ano\\
-\noindent Todos os direitos autorais reservados a \@author. A reprodução de partes ou do todo deste trabalho só poderá ser feita mediante a citação da fonte.\\
-\if@endereco
-\noindent \UFSM@endereco~\\
-\fi
-\if@fone
-    \if@fax
-    {\noindent \UFSM@fone;~ \UFSM@fax;~ \UFSM@email\\}
-    \else
-    {\noindent \UFSM@fone;~ \UFSM@email\\}
-    \fi
-\else
-    \if@fax
-    {\noindent \UFSM@fax;~ \UFSM@email\\}
-\else
-{\noindent \UFSM@email\\}
-\fi
-\fi
-}
+%	\hspace{-2cm}
+\noindent\includegraphics[trim=\UFSM@leftcat cm \UFSM@bottomcat cm \UFSM@rightcat cm \UFSM@topcat cm,clip,scale=0.91]{ficha_catalografica.pdf}
+%\singlespacing
+%{\footnotesize
+%\noindent\rule{\textwidth}{1.1pt}\\
+%\noindent$\text{\copyright}$\UFSM@ano\\
+%\noindent Todos os direitos autorais reservados a \@author. A reprodução de partes ou do todo deste trabalho só poderá ser feita mediante a citação da fonte.\\
+%\if@endereco
+%\noindent \UFSM@endereco~\\
+%\fi
+%\if@fone
+%    \if@fax
+%    {\noindent \UFSM@fone;~ \UFSM@fax;~ \UFSM@email\\}
+%    \else
+%    {\noindent \UFSM@fone;~ \UFSM@email\\}
+%    \fi
+%\else
+%    \if@fax
+%    {\noindent \UFSM@fax;~ \UFSM@email\\}
+%\else
+%{\noindent \UFSM@email\\}
+%\fi
+%\fi
+%}
 
 }
 
@@ -1211,7 +1215,10 @@ Defesa realizada por videoconferência.
         \singlespacing
         \textbf{\noindent\@author}\\
         \vspace{7.0\baselineskip}
-        \MakeUppercase{\textbf{\noindent\@title}}
+        \MakeUppercase{\textbf{\noindent\@title}}\\     
+        \if@subtitulo
+        {\MakeUppercase{\@subtitulo}}\\
+        \fi
         \vspace{5.0\baselineskip}
      \end{center}   
      

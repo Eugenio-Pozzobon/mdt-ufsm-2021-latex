@@ -1,0 +1,11 @@
+\babel@toc {brazil}{}\relax 
+\contentsline {chapter}{\numberline {1}Introdução}{17}{section*.21}%
+\contentsline {chapter}{\numberline {2}Algumas notas sobre bibliografia}{19}{section*.22}%
+\contentsline {section}{\numberline {2.1}Modelos de citação}{19}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}O comando \textit {apud}}{20}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}\textit {Apud on line}}{20}{subsubsection.2.1.1.1}%
+\contentsline {paragraph}{\numberline {2.1.1.1.1}Teste de seção quinária}{20}{paragraph.2.1.1.1.1}%
+\contentsline {chapter}{\numberline {3}Tabelas, figuras, quadros, ilustrações e gráficos}{21}{section*.23}%
+\contentsline {chapter}{\numberline {4}Conclusão}{25}{section*.29}%
+\contentsline {chapter}{\hspace {\@tempdima }\noindent Apêndice A~--~Demonstração de algo}{27}{section*.31}%
+\contentsline {chapter}{\hspace {\@tempdima }\noindent Anexo~A~--~Algo interessante que alguém fez}{29}{section*.33}%

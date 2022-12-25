@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.2)  24 DEC 2022 21:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.2)  24 DEC 2022 23:19
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1097,19 +1097,19 @@ Package newfloat Info: `rotating' package detected.
 )
 Package newfloat Info: New float `quadro' with options ` fileext=los, listname=
 Lista de Quadros, name=Quadro, placement=tbhp, within=chapter, ' on input line 
-91.
+90.
 \c@quadro=\count384
-Package newfloat Info: float type `quadro'=4 on input line 91.
+Package newfloat Info: float type `quadro'=4 on input line 90.
 Package newfloat Info: New float `grafico' with options ` fileext=logg, listnam
 e=Lista de GrÃ¡ficos, name=GrÃ¡fico, placement=tbhp, within=chapter, ' on input
- line 100.
+ line 99.
 \c@grafico=\count385
-Package newfloat Info: float type `grafico'=8 on input line 100.
+Package newfloat Info: float type `grafico'=8 on input line 99.
 Package newfloat Info: New float `ilustracao' with options ` fileext=loi, listn
 ame=Lista de IlustraÃ§Ãµes, name=IlustraÃ§Ã£o, placement=tbhp, within=chapter, 
-' on input line 108.
+' on input line 107.
 \c@ilustracao=\count386
-Package newfloat Info: float type `ilustracao'=16 on input line 108.
+Package newfloat Info: float type `ilustracao'=16 on input line 107.
 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
@@ -1146,36 +1146,36 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 )
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 27
-3.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 28
+0.
 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 273.
+(Font)              scaled to size 11.39996pt on input line 280.
 
 (arquivo_2021.aux)
 \openout1 = `arquivo_2021.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 273.
-LaTeX Font Info:    ... okay on input line 273.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 273.
-LaTeX Font Info:    ... okay on input line 273.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 273.
-LaTeX Font Info:    ... okay on input line 273.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 273.
-LaTeX Font Info:    ... okay on input line 273.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 273.
-LaTeX Font Info:    ... okay on input line 273.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 273.
-LaTeX Font Info:    ... okay on input line 273.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 273.
-LaTeX Font Info:    ... okay on input line 273.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 273.
-LaTeX Font Info:    ... okay on input line 273.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 273.
-LaTeX Font Info:    ... okay on input line 273.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 280.
+LaTeX Font Info:    ... okay on input line 280.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 280.
+LaTeX Font Info:    ... okay on input line 280.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 280.
+LaTeX Font Info:    ... okay on input line 280.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 280.
+LaTeX Font Info:    ... okay on input line 280.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 280.
+LaTeX Font Info:    ... okay on input line 280.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 280.
+LaTeX Font Info:    ... okay on input line 280.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 280.
+LaTeX Font Info:    ... okay on input line 280.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 280.
+LaTeX Font Info:    ... okay on input line 280.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 280.
+LaTeX Font Info:    ... okay on input line 280.
 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1201,43 +1201,43 @@ File: translations-basic-dictionary-brazil.trsl (brazil translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `brazil'. on input line 273.
-Package hyperref Info: Link coloring OFF on input line 273.
+or `brazil'. on input line 280.
+Package hyperref Info: Link coloring OFF on input line 280.
  (arquivo_2021.out) (arquivo_2021.out)
 \@outlinefile=\write3
 \openout3 = `arquivo_2021.out'.
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 273.
+(Font)              scaled to size 13.67995pt on input line 280.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 273.
-Package tocstyle Info: prepare \l@part for redefinition on input line 273.
+(Font)              scaled to size 13.67995pt on input line 280.
+Package tocstyle Info: prepare \l@part for redefinition on input line 280.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 273.
-Package tocstyle Info: prepare \l@chapter for redefinition on input line 273.
-Package tocstyle Info: prepare \l@section for redefinition on input line 273.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 273
+(Font)              scaled to size 11.39996pt on input line 280.
+Package tocstyle Info: prepare \l@chapter for redefinition on input line 280.
+Package tocstyle Info: prepare \l@section for redefinition on input line 280.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 280
 .
 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 273
+LaTeX Font Info:    Trying to load font information for U+msb on input line 280
 .
 
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package tocstyle Info: prepare \l@subsection for redefinition on input line 273
+Package tocstyle Info: prepare \l@subsection for redefinition on input line 280
 .
 Package tocstyle Info: prepare \l@subsubsection for redefinition on input line 
-273.
-Package tocstyle Info: prepare \l@paragraph for redefinition on input line 273.
+280.
+Package tocstyle Info: prepare \l@paragraph for redefinition on input line 280.
 
 Package tocstyle Info: prepare \l@subparagraph for redefinition on input line 2
-73.
-Package tocstyle Info: prepare \l@table for redefinition on input line 273.
-Package tocstyle Info: prepare \l@figure for redefinition on input line 273.
+80.
+Package tocstyle Info: prepare \l@table for redefinition on input line 280.
+Package tocstyle Info: prepare \l@figure for redefinition on input line 280.
 
 
 Package tocstyle Warning: unexpected \@dottedtocline definition!
@@ -1256,15 +1256,15 @@ p \parindent #2\relax \@afterindenttrue \interlinepenalty \@M \leavevmode \@tem
 pdima #3\relax \advance \leftskip \@tempdima \null \nobreak \hskip -\leftskip {
 #4}\nobreak \leaders \hbox {$\m@th \mkern \@dotsep mu\hbox {.}\mkern \@dotsep m
 u$}\hfill \nobreak \hb@xt@ \@pnumwidth {\hfil \normalfont \normalcolor #5\kern 
--\p@ \kern \p@ }\par }\fi  on input line 273.
+-\p@ \kern \p@ }\par }\fi  on input line 280.
 Package newfloat Info: Trying Plan B...
 Package newfloat Info: `float' package detected.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 278.
+(Font)              scaled to size 16.41594pt on input line 285.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 15.20108pt on input line 278.
+(Font)              scaled to size 15.20108pt on input line 285.
 [1
 Non-PDF special ignored!
 <special> header=pstricks.pro
@@ -1284,47 +1284,33 @@ Non-PDF special ignored!
 <special> ps:0.8 setlinewidth 0 setgray
 
 {C:/Users/eugen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 1715) in paragraph at lines 278--278
+Underfull \hbox (badness 1715) in paragraph at lines 285--285
 \T1/phv/m/n/12 Tese de Dou-to-rado apre-sen-tada ao Pro-
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 2
-78.
+85.
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 278.
+(Font)              scaled to size 11.39996pt on input line 285.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 278.
+(Font)              scaled to size 7.59998pt on input line 285.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 278.
+(Font)              scaled to size 5.69998pt on input line 285.
 <ficha_catalografica.pdf, id=50, 597.51233pt x 845.0471pt>
 File: ficha_catalografica.pdf Graphic file (type pdf)
 <use ficha_catalografica.pdf>
-Package pdftex.def Info: ficha_catalografica.pdf  used on input line 278.
-(pdftex.def)             Requested size: 441.02113pt x 275.99133pt.
+Package pdftex.def Info: ficha_catalografica.pdf  used on input line 285.
+(pdftex.def)             Requested size: 455.7043pt x 622.70418pt.
 
-Overfull \hbox (3.40187pt too wide) in paragraph at lines 278--278
-[][] 
+Overfull \hbox (0.46022pt too wide) in paragraph at lines 285--285
+[] 
  []
 
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 278.
-[2]
-LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 278.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 278.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 278.
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
-
- []
-
-[3 <./ficha_catalografica.pdf>] [4]
-Underfull \hbox (badness 1715) in paragraph at lines 278--278
+[2] [3 <./ficha_catalografica.pdf>] [4]
+Underfull \hbox (badness 1715) in paragraph at lines 285--285
 \T1/phv/m/n/12 Tese de Dou-to-rado apre-sen-tada ao Pro-
  []
 
@@ -1336,104 +1322,123 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.278 \pretextual
+l.285 \pretextual
                    %%%% GERA AS PAGINAS PRE-TEXTUAIS [3]
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
-
- []
-
-
-Overfull \vbox (3.0pt too high) has occurred while \output is active []
-
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 285.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 11.39996pt on input line 285.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.278 \pretextual
-                   %%%% GERA AS PAGINAS PRE-TEXTUAIS [4]
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
+l.285 \pretextual
+                   %%%% GERA AS PAGINAS PRE-TEXTUAIS [4
+
+] [5
+
+]
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 285.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 285.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 9.49997pt on input line 285.
+
+Overfull \vbox (3.0pt too high) has occurred while \output is active []
+
+ [6]
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
 
  []
 
 
 Overfull \vbox (3.0pt too high) has occurred while \output is active []
 
- [5]
+ [7]
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
+
+ []
+
+
+Overfull \vbox (3.0pt too high) has occurred while \output is active []
+
+ [8]
 (arquivo_2021.lof)
 \tf@lof=\write4
 \openout4 = `arquivo_2021.lof'.
 
- [6
+ [9
 
 ] (arquivo_2021.logg)
 \tf@logg=\write5
 \openout5 = `arquivo_2021.logg'.
 
- [7
+ [10
 
 ] (arquivo_2021.loi)
 \tf@loi=\write6
 \openout6 = `arquivo_2021.loi'.
 
- [8
+ [11
 
 ]
 (arquivo_2021.lot)
 \tf@lot=\write7
 \openout7 = `arquivo_2021.lot'.
 
- [9
+ [12
 
 ] (arquivo_2021.los)
 \tf@los=\write8
 \openout8 = `arquivo_2021.los'.
 
- [10
+ [13
 
 ]
-Underfull \hbox (badness 10000) detected at line 278
+Underfull \hbox (badness 10000) detected at line 285
 []$\OML/cmm/m/it/14.4 SIGLA\OT1/cmr/m/n/14.4 1$[]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 278
+Underfull \hbox (badness 10000) detected at line 285
 []$\OML/cmm/m/it/14.4 SIGLA\OT1/cmr/m/n/14.4 2$[]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 278
+Underfull \hbox (badness 10000) detected at line 285
 []$\OML/cmm/m/it/14.4 SIGLAMAX$[]
  []
 
-[11
+[14
 
 ]
-Underfull \hbox (badness 10000) detected at line 278
+Underfull \hbox (badness 10000) detected at line 285
 []$\OML/cmm/m/it/14.4 u[]$[]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 278
+Underfull \hbox (badness 10000) detected at line 285
 []$\OML/cmm/m/it/14.4 w[]$[]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 278
+Underfull \hbox (badness 10000) detected at line 285
 []$\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 Re\OT1/cmr/m/n/14.4 )[]$[]
  []
 
-[12
+[15
 
 ] (arquivo_2021.toc
 number indent by \l@... (toc, 0):  0.0pt
@@ -1472,18 +1477,14 @@ number indent by \l@... (toc, 3):  79.79974pt
 text indent by \l@... (toc, 3):  46.73991pt
 number indent by parent (toc, 3):  64.63696pt
 text indent calculated (toc, 3): 40.5604pt
-number indent calculated (toc, 3): 69.69862pt
+number indent calculated (toc, 3): 64.63696pt
 text noindent (toc, 3): 50.06776pt
 number noindent (toc, 3): 0.0pt
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 6.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 6.
 number indent by \l@... (toc, 4):  113.99963pt
 text indent by \l@... (toc, 4):  56.99982pt
-number indent by parent (toc, 4):  110.25902pt
+number indent by parent (toc, 4):  105.19736pt
 text indent calculated (toc, 4): 50.06776pt
-number indent calculated (toc, 4): 114.9333pt
+number indent calculated (toc, 4): 105.19736pt
 text noindent (toc, 4): 50.06776pt
 number noindent (toc, 4): 0.0pt
 number indent by \l@... (toc, 0):  0.0pt
@@ -1518,17 +1519,20 @@ number noindent (toc, 0): 0.0pt
 \tf@toc=\write9
 \openout9 = `arquivo_2021.toc'.
 
- [13
+ [16
 
-] [14
+] [17
 
 
 ]
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
 
-[15]
-Overfull \hbox (2.92654pt too wide) in paragraph at lines 302--303
+[18]
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 6.64998pt on input line 309.
+
+Overfull \hbox (2.92654pt too wide) in paragraph at lines 309--310
 \T1/phv/m/n/12 clas-ses de ci-ta-ções. To-das elas po-dem ser usa-das com o $\O
 MS/cmsy/m/n/12 n$\T1/phv/m/sl/12 cite$\OMS/cmsy/m/n/12 f$\T1/phv/m/sl/12 label$
 \OMS/cmsy/m/n/12 g$ \T1/phv/m/n/12 ou $\OMS/cmsy/m/n/12 n$\T1/phv/m/sl/12 citeo
@@ -1537,172 +1541,172 @@ nline$\OMS/cmsy/m/n/12 f$\T1/phv/m/sl/12 label$\OMS/cmsy/m/n/12 g$\T1/phv/m/n/1
  []
 
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-08.
+15.
 (C:\Users\eugen\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
-LaTeX Warning: Citation `tcc:mintegui2014' on page 16 undefined on input line 3
-14.
+LaTeX Warning: Citation `tcc:mintegui2014' on page 19 undefined on input line 3
+21.
 
 
-LaTeX Warning: Citation `diss:anabor2004' on page 16 undefined on input line 31
-4.
+LaTeX Warning: Citation `diss:anabor2004' on page 19 undefined on input line 32
+1.
 
 
-LaTeX Warning: Citation `tese:anabor2008' on page 16 undefined on input line 31
-4.
+LaTeX Warning: Citation `tese:anabor2008' on page 19 undefined on input line 32
+1.
 
 
-LaTeX Warning: Citation `livro:halliday28ed' on page 16 undefined on input line
- 314.
+LaTeX Warning: Citation `livro:halliday28ed' on page 19 undefined on input line
+ 321.
 
 
-LaTeX Warning: Citation `livro:fedorova:v1' on page 16 undefined on input line 
-314.
+LaTeX Warning: Citation `livro:fedorova:v1' on page 19 undefined on input line 
+321.
 
 
-LaTeX Warning: Citation `site:amsglo:fog' on page 16 undefined on input line 31
-4.
+LaTeX Warning: Citation `site:amsglo:fog' on page 19 undefined on input line 32
+1.
 
 
-LaTeX Warning: Citation `cap:livro:djuric1994' on page 16 undefined on input li
-ne 325.
+LaTeX Warning: Citation `cap:livro:djuric1994' on page 19 undefined on input li
+ne 332.
 
 
-LaTeX Warning: Citation `livro:aris1989' on page 16 undefined on input line 325
+LaTeX Warning: Citation `livro:aris1989' on page 19 undefined on input line 332
 .
 
 
-LaTeX Warning: Citation `livro:cotton1989' on page 16 undefined on input line 3
-25.
+LaTeX Warning: Citation `livro:cotton1989' on page 19 undefined on input line 3
+32.
 
 
-LaTeX Warning: Citation `cap:livro:wyngaard1981' on page 16 undefined on input 
-line 325.
+LaTeX Warning: Citation `cap:livro:wyngaard1981' on page 19 undefined on input 
+line 332.
 
 
-LaTeX Warning: Citation `livro:fedorova:v1' on page 16 undefined on input line 
-325.
+LaTeX Warning: Citation `livro:fedorova:v1' on page 19 undefined on input line 
+332.
 
 
-LaTeX Warning: Citation `artigo:fujita1981' on page 16 undefined on input line 
-325.
+LaTeX Warning: Citation `artigo:fujita1981' on page 19 undefined on input line 
+332.
 
 
-LaTeX Warning: Citation `puhalesBLT2010' on page 16 undefined on input line 325
+LaTeX Warning: Citation `puhalesBLT2010' on page 19 undefined on input line 332
 .
 
 
-LaTeX Warning: Citation `artigo:janjic2002' on page 16 undefined on input line 
-325.
+LaTeX Warning: Citation `artigo:janjic2002' on page 19 undefined on input line 
+332.
 
 
-LaTeX Warning: Citation `cbmet:anabor2012' on page 16 undefined on input line 3
-25.
+LaTeX Warning: Citation `cbmet:anabor2012' on page 19 undefined on input line 3
+32.
 
 
-LaTeX Warning: Citation `site:wrfhome' on page 16 undefined on input line 325.
+LaTeX Warning: Citation `site:wrfhome' on page 19 undefined on input line 332.
 
-[16
+[19
 
 ]
-Overfull \hbox (1.59436pt too wide) in paragraph at lines 337--337
+Overfull \hbox (1.59436pt too wide) in paragraph at lines 344--344
 []\T1/cmtt/m/n/12 Sobre a circulação geral da atmosfera pode-se dizer que os ve
 ntos do norte 
  []
 
 
-LaTeX Warning: Citation `apud:richardson1922' on page 17 undefined on input lin
-e 341.
+LaTeX Warning: Citation `apud:richardson1922' on page 20 undefined on input lin
+e 348.
 
 
-LaTeX Warning: Citation `apud:richardson1922' on page 17 undefined on input lin
-e 341.
+LaTeX Warning: Citation `apud:richardson1922' on page 20 undefined on input lin
+e 348.
 
 
-LaTeX Warning: Citation `livro:monin:v1' on page 17 undefined on input line 341
+LaTeX Warning: Citation `livro:monin:v1' on page 20 undefined on input line 348
 .
 
 
-LaTeX Warning: Citation `livro:monin:v1' on page 17 undefined on input line 341
+LaTeX Warning: Citation `livro:monin:v1' on page 20 undefined on input line 348
 .
 
 
-LaTeX Warning: Citation `apud:richardson1922' on page 17 undefined on input lin
-e 359.
+LaTeX Warning: Citation `apud:richardson1922' on page 20 undefined on input lin
+e 366.
 
 
-LaTeX Warning: Citation `apud:richardson1922' on page 17 undefined on input lin
-e 359.
+LaTeX Warning: Citation `apud:richardson1922' on page 20 undefined on input lin
+e 366.
 
 
-LaTeX Warning: Citation `livro:monin:v1' on page 17 undefined on input line 359
+LaTeX Warning: Citation `livro:monin:v1' on page 20 undefined on input line 366
 .
 
 
-LaTeX Warning: Citation `livro:monin:v1' on page 17 undefined on input line 359
+LaTeX Warning: Citation `livro:monin:v1' on page 20 undefined on input line 366
 .
-
-
-Overfull \vbox (6.38434pt too high) has occurred while \output is active []
-
-
-[17]
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 401.
-
-
-LaTeX Warning: Citation `livro:halliday28ed' on page 18 undefined on input line
- 401.
-
-[18
-
-]
-Package hyperref Info: bookmark level for unknown quadro defaults to 0 on input
- line 431.
-
-
-LaTeX Warning: Citation `livro:halliday28ed' on page 19 undefined on input line
- 444.
-
-
-Overfull \hbox (20.11484pt too wide) in paragraph at lines 454--454
-[]\T1/cmtt/m/n/12 \caption{\label{exepretex}Sequência dos elementros pré-testua
-is da MDT-UFSM.}[] 
- []
-
-<figuras/pretextuais.png, id=182, 579.66562pt x 306.39468pt>
-File: figuras/pretextuais.png Graphic file (type png)
-<use figuras/pretextuais.png>
-Package pdftex.def Info: figuras/pretextuais.png  used on input line 464.
-(pdftex.def)             Requested size: 273.14922pt x 144.37953pt.
-
-LaTeX Warning: Citation `man:MDTUFSM2015' on page 19 undefined on input line 46
-5.
 
 
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
 
-[19]
-Overfull \hbox (20.11484pt too wide) in paragraph at lines 472--472
+[20]
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 9.49997pt on input line 408.
+
+
+LaTeX Warning: Citation `livro:halliday28ed' on page 21 undefined on input line
+ 408.
+
+[21
+
+]
+Package hyperref Info: bookmark level for unknown quadro defaults to 0 on input
+ line 438.
+
+
+LaTeX Warning: Citation `livro:halliday28ed' on page 22 undefined on input line
+ 451.
+
+
+Overfull \hbox (20.11484pt too wide) in paragraph at lines 461--461
+[]\T1/cmtt/m/n/12 \caption{\label{exepretex}Sequência dos elementros pré-testua
+is da MDT-UFSM.}[] 
+ []
+
+<figuras/pretextuais.png, id=195, 579.66562pt x 306.39468pt>
+File: figuras/pretextuais.png Graphic file (type png)
+<use figuras/pretextuais.png>
+Package pdftex.def Info: figuras/pretextuais.png  used on input line 471.
+(pdftex.def)             Requested size: 273.14922pt x 144.37953pt.
+
+LaTeX Warning: Citation `man:MDTUFSM2015' on page 22 undefined on input line 47
+2.
+
+
+Overfull \vbox (6.38434pt too high) has occurred while \output is active []
+
+
+[22]
+Overfull \hbox (20.11484pt too wide) in paragraph at lines 479--479
 []\T1/cmtt/m/n/12 \caption{\label{exepretex1}Sequência dos elementros pré-testu
 ais da MDT-UFSM}[] 
  []
 
 Package hyperref Info: bookmark level for unknown ilustracao defaults to 0 on i
-nput line 480.
+nput line 487.
 File: figuras/pretextuais.png Graphic file (type png)
 <use figuras/pretextuais.png>
-Package pdftex.def Info: figuras/pretextuais.png  used on input line 482.
+Package pdftex.def Info: figuras/pretextuais.png  used on input line 489.
 (pdftex.def)             Requested size: 273.14922pt x 144.37953pt.
 
-LaTeX Warning: Citation `man:MDTUFSM2015' on page 20 undefined on input line 48
-3.
+LaTeX Warning: Citation `man:MDTUFSM2015' on page 23 undefined on input line 49
+0.
 
 
-Overfull \hbox (26.28833pt too wide) in paragraph at lines 491--491
+Overfull \hbox (26.28833pt too wide) in paragraph at lines 498--498
 []\T1/cmtt/m/n/12 \caption{\label{exepretex3} Um exemplo de utilização do ambie
 nte ``grafico''.}[] 
  []
@@ -1711,19 +1715,19 @@ nte ``grafico''.}[]
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
 
-[20 <./figuras/pretextuais.png>]
+[23 <./figuras/pretextuais.png>]
 Package hyperref Info: bookmark level for unknown grafico defaults to 0 on inpu
-t line 497.
-<figuras/estrutura_com.pdf, id=191, 1373.13pt x 1084.05pt>
+t line 504.
+<figuras/estrutura_com.pdf, id=205, 1373.13pt x 1084.05pt>
 File: figuras/estrutura_com.pdf Graphic file (type pdf)
 <use figuras/estrutura_com.pdf>
-Package pdftex.def Info: figuras/estrutura_com.pdf  used on input line 499.
+Package pdftex.def Info: figuras/estrutura_com.pdf  used on input line 506.
 (pdftex.def)             Requested size: 273.14922pt x 215.63173pt.
 
 Overfull \vbox (6.38434pt too high) has occurred while \output is active []
 
 
-[21 <./figuras/estrutura_com.pdf>] [22
+[24 <./figuras/estrutura_com.pdf>] [25
 
 ]
 No file arquivo_2021.bbl.
@@ -1731,70 +1735,70 @@ No file arquivo_2021.bbl.
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
 
-[23]
+[26]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\noindent' on input line 530.
+(hyperref)                removing `\noindent' on input line 537.
 
-[24
+[27
 
 ]
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
 
-[25]
+[28]
 pdfTeX warning (ext4): destination with the same identifier (name{appendix.A}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.540 \chapter{Algo interessante que alguÃ©m fez}
+l.547 \chapter{Algo interessante que alguÃ©m fez}
                                                  
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\noindent' on input line 540.
+(hyperref)                removing `\noindent' on input line 547.
 
-[26
+[29
 
 ]
-<figuras/lombada.png, id=225, 441.90094pt x 423.08063pt>
+<figuras/lombada.png, id=239, 441.90094pt x 423.08063pt>
 File: figuras/lombada.png Graphic file (type png)
 <use figuras/lombada.png>
-Package pdftex.def Info: figuras/lombada.png  used on input line 547.
+Package pdftex.def Info: figuras/lombada.png  used on input line 554.
 (pdftex.def)             Requested size: 273.14922pt x 261.52614pt.
 
 
-LaTeX Warning: Citation `man:MDTUFSM2015' on page 27 undefined on input line 54
-8.
+LaTeX Warning: Citation `man:MDTUFSM2015' on page 30 undefined on input line 55
+5.
 
 
-Overfull \vbox (6.38434pt too high) has occurred while \output is active []
-
-
-[27]
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
 
-[28 <./figuras/lombada.png>]
+[30]
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
 
-[29]
+[31 <./figuras/lombada.png>]
 Overfull \vbox (6.48169pt too high) has occurred while \output is active []
 
 
-[30] (arquivo_2021.aux)
+[32]
+Overfull \vbox (6.48169pt too high) has occurred while \output is active []
+
+
+[33] (arquivo_2021.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `arquivo_2021.out' has not changed.
-(rerunfilecheck)             Checksum: 24ED18CECA354B1CBAA59EE7AF482888;1897.
+(rerunfilecheck)             Checksum: 63D30DC07483F2C2D0F75CBBAC6E721B;1897.
  ) 
 Here is how much of TeX's memory you used:
- 29821 strings out of 475385
- 581572 string characters out of 2776907
- 1028135 words of memory out of 3000000
- 50548 multiletter control sequences out of 15000+600000
- 516713 words of font info for 93 fonts, out of 8000000 for 9000
+ 29824 strings out of 475385
+ 581582 string characters out of 2776907
+ 1027975 words of memory out of 3000000
+ 50545 multiletter control sequences out of 15000+600000
+ 517054 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,9n,131p,678b,1061s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\eugen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
@@ -1809,9 +1813,9 @@ ams/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/eugen/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/eugen/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/eugen/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on arquivo_2021.pdf (32 pages, 547445 bytes).
+Output written on arquivo_2021.pdf (35 pages, 549893 bytes).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 64 named destinations out of 1000 (max. 500000)
+ 383 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
  107 words of extra memory for PDF output out of 10000 (max. 10000000)
 

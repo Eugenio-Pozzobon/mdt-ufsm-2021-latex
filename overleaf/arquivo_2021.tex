@@ -107,14 +107,19 @@
 
 
 % % % % % % % % % % INFORMACOES SOBRE O TRABALHO % % % % % % % % % %
-% % % %  TITULO E SUBTITULO DO TRABALHO: ELES NÃO DEVEM ULTRAPASSAR, JUNTOS, 3 LINHAS NA COMPILAÇÃO DA CAPA
-% SE O TRABALHO POSSUI SUBTÍTULO, ADICIONE ':' DENTRO DAS CHAVES ABAIXO 
+% % % %  TITULO E SUBTITULO DO TRABALHO: ELES NÃO DEVEM ULTRAPASSAR, JUNTOS, 3 LINHAS NA COMPILAÇÃO DA CAPA. 
+% SE O TRABALHO POSSUI SUBTITULO, ADICIONE ':' DENTRO DAS CHAVES ABAIXO 
 \titulo{Título do trabalho em português:} %% NAO EH NECESSARIO CAPITALIZAR
 % % % %  TITULO DO TRABALHO EM INGLES
-\englishtitle{Título do trabalho em inglês}  %% NAO EH NECESSARIO CAPITALIZAR
+% SE O TRABALHO POSSUI SUBTÍTULO, ADICIONE ':' DENTRO DAS CHAVES ABAIXO 
+\englishtitle{Título do trabalho em inglês:}  %% NAO EH NECESSARIO CAPITALIZAR
 
+
+% % % % O SUBTÍTULO É OPCIONAL, SE NÃO FOR USADO AS LINHAS ABAIXO DEVEM SER COMENTADAS
+
+% SE O TRABALHO POSSUI SUBTÍTULO, ADICIONE ':' DENTRO DAS CHAVES ABAIXO 
 \subtitulo{Subtítulo do trabalho em português} %% NAO EH NECESSARIO CAPITALIZAR
-% % % %  TITULO DO TRABALHO EM INGLES
+% % % %  SUB TITULO DO TRABALHO EM INGLES
 \subenglishtitle{Subtítulo do trabalho em inglês}  %% NAO EH NECESSARIO CAPITALIZAR
 
 % % % AREA DE CONCENTRACAO DO TRABALHO (CNPQ)
@@ -143,11 +148,11 @@
 % % % % %  ALGUMAS ENTRADAS PRE-TEXTUAIS
 % % % % CASO NAO QUEIRA UTILIZA-LAS COMENTE A LINHA DE COMANDO
 % % % EPIGRAFE
-% \epigrafe{Winter is coming!}{Família Stark} %ESTRUTURA DE CAMPOS -> {Texto}{Autor}
+\epigrafe{Winter is coming!}{Família Stark} %ESTRUTURA DE CAMPOS -> {Texto}{Autor}
 % % % DEDICATORIA
-% \dedicatoria{Aos que virão depois de nós}
+\dedicatoria{Aos que virão depois de nós}
 % % % %  AGRADECIMENTOS
-% \agradecimentos{A mim!}
+\agradecimentos{A mim!}
 
 % % % % %  RESUMO E PALAVRAS CHAVE DO RESUMO - OBRIGATORIO PARA MDT-UFSM
 \resumo{
@@ -187,6 +192,7 @@ Write your abstract here! As recomendações do resumo também se aplicam ao abs
 
 
 % % % %  LISTA DE ABREVIATURAS E SIGLAS
+%%%%%%%% OBS: A MDT possibilita a desmembração em duas listas separadas, mas isso não é possível neste template
 %%%%%%%% OBS: O espaco entre colchetes \item[] e um ambiente matematico
 %%%%%%%% para não utilizar comente as linhas abaixo.
 \siglamax{SIGLAMAX} %%%% coloque aqui a maior sigla (indentacao)
@@ -195,6 +201,7 @@ Write your abstract here! As recomendações do resumo também se aplicam ao abs
 \item[SIGLA2]	Nome Completo da Sigla 2
 \item[SIGLAMAX]	Nome Completo da Sigla MAX
 }
+
 
 % % % %  LISTA DE SIMBOLOS
 %%%%%%%% OBS: O espaco entre colchetes \item[] e um ambiente matematico
@@ -212,10 +219,10 @@ Write your abstract here! As recomendações do resumo também se aplicam ao abs
 % % % A FICHA CATALOGRAFICA FORNECIDA PELA UFSM EH UM PDF DO TAMANHO A4
 % % % EH POSSIVEL GERA-LA NO SITE http://cascavel.ufsm.br/ficha_catalografica/
 % % % OS COMANDOS ABAIXO DEFINEM AS MARGENS PARA CORTAR A FICHA FORNECIDA E COLOCA-LA COMO UMA FIGURA NO DOCUMENTO LATEX
-\margemesquerda{4}   %%%% CORTE DE MARGEM ESQUERDA EM CM
+\margemesquerda{1.9}   %%%% CORTE DE MARGEM ESQUERDA EM CM
 \margemdireita{1.5}   %%%% CORTE DE MARGEM DIREITA EM CM
-\margemsuperior{17}  %%%% CORTE DE MARGEM SUPERIOR EM CM
-\margeminferior{3} %%%% CORTE DE MARGEM INFERIOR EM CM
+\margemsuperior{2.75}  %%%% CORTE DE MARGEM SUPERIOR EM CM
+\margeminferior{2.9} %%%% CORTE DE MARGEM INFERIOR EM CM
 % % %  DICA: IMPRIMA UMA COPIA DA FICHA CATALOGRAFICA E FACA A MEDIDA DAS MARGENS!
 
 
