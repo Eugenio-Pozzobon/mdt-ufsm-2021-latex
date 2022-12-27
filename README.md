@@ -7,7 +7,7 @@ Existem duas pastas neste repositório, a pasta do TexStudio contém os arquivos
 * No texstudio acesse: opções>configurar o texstudio>compilação. Altere para o XeLaTeX 
 * No Overleaf acesse o menu do projeto e altere o compilador e selecone o XeLaTeX. Altere também a versão do texlive para a 2020 (legacy)
 
-### Alterações implementadas em comparação com o tamplate da MDT 2015
+### Alterações implementadas em comparação com o template da MDT 2015
 
 * Tamanho para nome e fonte de figuras/tabelas/ilustrações/quadros reduz para 10pt e fica centralizado.
 * Fixar espaço de 10pt entre as legendas e figuras/tabelas/ilustrações/quadros
