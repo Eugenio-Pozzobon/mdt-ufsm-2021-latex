@@ -23,6 +23,7 @@ Existem duas pastas neste repositório, a pasta do TexStudio contém os arquivos
 * Numeração das figuras/tabelas/ilustrações/quadros de forma sequencial
 * Nome dos termos figuras/tabelas/ilustrações/quadros em maiúscula nos respectivos ambientes
 * Nova Ficha catalográfica
+* Resumo e Abstract com espaçamento simples
 
 ### Bugs Corrigidos para o TexStudio
 * Arquivo tocstyle adicionado na pasta para compilação
