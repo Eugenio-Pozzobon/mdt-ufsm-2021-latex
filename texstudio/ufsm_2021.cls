@@ -1,5 +1,5 @@
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
-%%%% Classe LaTex - MDT-UFSM-2021 - ver. 1.0   				 %%%%
+%%%% Classe LaTex - MDT-UFSM-2021 - ver. 1.0.1 				 %%%%
 
 %%%% Por Eugênio Piveta Pozzobon 							 %%%%
 %%%% adaptado da versao de Franciano Scremin Puhales, 		 %%%%
@@ -1409,7 +1409,6 @@ Defesa realizada por videoconferência.
       \fi
     \end{center}
     \setlength{\parindent}{0cm}
-    \onehalfspacing
 
     \@abstract~\\
     ~\\
