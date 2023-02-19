@@ -1,25 +1,22 @@
-This is BibTeX, Version 0.99d
+This is BibTeX, Version 0.99d (TeX Live 2022)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: arquivo_2021.aux
-Reallocating 'name_of_file' (item size: 1) to 16 items.
-Reallocating 'name_of_file' (item size: 1) to 12 items.
-Reallocating 'name_of_file' (item size: 1) to 12 items.
 The style file: abntex2-alf.bst
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'wiz_functions' (item size: 4) to 6000 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: referencias.bib
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'glb_str_end' (item size: 4) to 20 items.
-Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
-Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
 | Em caso de dúvidas ou problemas com este estilo procure |
@@ -27,37 +24,37 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 +---------------------------------------------------------+
 You've used 27 entries,
             6714 wiz_defined-function locations,
-            1353 strings with 12940 characters,
-and the built_in function-call counts, 20229 in all, are:
-= -- 2003
+            1354 strings with 12882 characters,
+and the built_in function-call counts, 20173 in all, are:
+= -- 1995
 > -- 381
 < -- 252
-+ -- 420
++ -- 421
 - -- 121
-* -- 1258
+* -- 1262
 := -- 2583
 add.period$ -- 87
 call.type$ -- 30
-change.case$ -- 181
+change.case$ -- 177
 chr.to.int$ -- 46
 cite$ -- 18
-duplicate$ -- 1437
+duplicate$ -- 1427
 empty$ -- 1550
 format.name$ -- 556
-if$ -- 4645
+if$ -- 4637
 int.to.chr$ -- 8
 int.to.str$ -- 3
-missing$ -- 411
-newline$ -- 94
+missing$ -- 406
+newline$ -- 92
 num.names$ -- 85
-pop$ -- 428
+pop$ -- 416
 preamble$ -- 1
 purify$ -- 88
 quote$ -- 0
-skip$ -- 1782
+skip$ -- 1778
 stack$ -- 1
-substring$ -- 760
-swap$ -- 545
+substring$ -- 751
+swap$ -- 546
 text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
