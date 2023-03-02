@@ -24,9 +24,7 @@
 
 % % % % % % % % PACOTES PESSOAIS % % % % % % % %  
 \usepackage{lipsum}
-
-
-
+\usepackage{quoting}
 
 
 % % % % % % % % DEFINICOES PESSOAIS % % % % % % % %
@@ -81,10 +79,10 @@
 \orientador{João da Silva}{Dr}{AAAA}{M}{P}  %%%INFORMACOES SOBRE ORIENTADOR: OS CAMPOS SAO:{NOME}{SIGLA DA TITULACAO}{SIGLA DA INSTITUICAO DE ORIGEM}{SEXO} M=masculino   F=feminino {PARTE DA BANCA?} P=presidente  M=Membro  N=Nao faz parte
 \coorientador{Maria da Costa}{Dra}{AAAA}{F}{M} %%%INFORMACOES SOBRE CO-ORIENTADOR: OS CAMPOS SAO:{NOME}{SIGLA DA TITULACAO}{SIGLA DA INSTITUICAO DE ORIGEM}{SEXO} M=masculino   F=feminino {PARTE DA BANCA?} P=presidente  M=Membro  N=Nao faz parte
 \bancaum{Banca Um}{Dr}{AAAA}{F}{M}  %%%INFORMACOES SOBRE PRIMEIRO NOME DA BANCA: OS CAMPOS SAO:{NOME}{SIGLA DA TITULACAO}{SIGLA DA INSTITUICAO DE ORIGEM}{SEXO} M=masculino   F=feminino {PARTE DA BANCA?} P=presidente  M=Membro  N=Nao faz parte
-\bancadois{Banca Dois}{Dr}{BBBB}  %%%INFORMACOES SOBRE SEGUNDO NOME DA BANCA: OS CAMPOS SAO:{NOME}{SIGLA DA TITULACAO}{SIGLA DA INSTITUICAO DE ORIGEM}
-% \bancatres{Banca Três}{Dra}{CCCC} %%%INFORMACOES SOBRE TERCEIRO NOME DA BANCA: OS CAMPOS SAO:{NOME}{SIGLA DA TITULACAO}{SIGLA DA INSTITUICAO DE ORIGEM}
-% \bancaquatro{Banca Quatro}{Dr}{DDDD} %%%INFORMACOES SOBRE QUARTO NOME DA BANCA: OS CAMPOS SAO:{NOME}{SIGLA DA TITULACAO}{SIGLA DA INSTITUICAO DE ORIGEM}
-% \bancacinco{Banca Cinco}{Dra}{EEEE} %%%INFORMACOES SOBRE QUARTO NOME DA BANCA: OS CAMPOS SAO:{NOME}{SIGLA DA TITULACAO}{SIGLA DA INSTITUICAO DE ORIGEM}
+%\bancadois{Banca Dois}{Dr}{BBBB}  %%%INFORMACOES SOBRE SEGUNDO NOME DA BANCA: OS CAMPOS SAO:{NOME}{SIGLA DA TITULACAO}{SIGLA DA INSTITUICAO DE ORIGEM}
+%\bancatres{Banca Três}{Dra}{CCCC} %%%INFORMACOES SOBRE TERCEIRO NOME DA BANCA: OS CAMPOS SAO:{NOME}{SIGLA DA TITULACAO}{SIGLA DA INSTITUICAO DE ORIGEM}
+%\bancaquatro{Banca Quatro}{Dr}{DDDD} %%%INFORMACOES SOBRE QUARTO NOME DA BANCA: OS CAMPOS SAO:{NOME}{SIGLA DA TITULACAO}{SIGLA DA INSTITUICAO DE ORIGEM}
+%\bancacinco{Banca Cinco}{Dra}{EEEE} %%%INFORMACOES SOBRE QUARTO NOME DA BANCA: OS CAMPOS SAO:{NOME}{SIGLA DA TITULACAO}{SIGLA DA INSTITUICAO DE ORIGEM}
 % \supervisor{Al Paccino}{Dr}{MAFIA}{M}{N} %%%INFORMACOES SOBRE SUPERVISOR (indicado para estagios): OS CAMPOS SAO:{NOME}{SIGLA DA TITULACAO}{SIGLA DA INSTITUICAO DE ORIGEM}{SEXO} M=masculino   F=feminino {PARTE DA BANCA?} P=Presidente  M=Membro  N=Nao faz parte
 
 
@@ -92,7 +90,7 @@
 % % % % % % % % % % REALIZACAO POR VIDEO CONFERENCIA (MEMORANDO 04/2016 BIBLIOTECA CENTRAL UFSM)
 \videoconferencia % % % % QUANDO O ACADEMICO DEFENDE POR VIDEO CONFERENCIA (PERMITIDO PELO ARTIGO 82 DO REGIMENTO GERAL DA PRPGP/UFSM). PARA DEFESAS NAS QUAIS O ACADEMICO ESTA PRESENTE COMENTE ESTA LINHA
 % % % % QUANDO UM DOS MEMBROS DA BANCA PARTICIPA POR VIDEO CONFERENCIA INDICAR O MEMBRO DE ACORDO COM A LISTA ABAIXO. CASO CONTRARIO MANTER A PALAVRA "NAO". SAO PERMITIDOS, PELO REGIMENTO PRGPGP (ARTIGO 83) ATE 2 MEMBROS 
-\videoconferenciabancap{1}  %%%% PRIMEIRO MEMBRO
+\videoconferenciabancap{NAO}  %%%% PRIMEIRO MEMBRO
 \videoconferenciabancas{NAO}  %%%%% SEGUNDO MEMBRO
 % % O > ORIENTADOR
 % % CO > COORIENTADOR% % % % QUANDO UM DOS MEMBROS DA BANCA PARTICIPA POR VIDEO CONFERENCIA INDICAR O MEMBRO DE ACORDO COM A LISTA ABAIXO. CASO CONTRARIO MANTER A PALAVRA "NAO". SAO PERMITIDOS, PELO REGIMENTO PRGPGP ATE 2 MEMBROS.
@@ -156,7 +154,7 @@
 
 % % % % %  RESUMO E PALAVRAS CHAVE DO RESUMO - OBRIGATORIO PARA MDT-UFSM
 \resumo{
-Escreva seu resumo aqui! Você pode digitá-lo diretamente neste arquivo ou usar o comando input. O resumo deve ter apenas uma página, desde o cabeçalho até as palavras chave. Caso seu resumo seja maior, use comandos para diminuir espaçamento e fonte (até um mínimo de 10pt) no texto. Você pode reduzir o espaçamento do texto removendo comentário da primeira linha deste campo: comando singlespacing. Segundo a MDT, é preciso que os resumos tenham, no máximo, 250 palavras para trabalhos de conclusão de curso de graduação, pós-graduação e iniciação científica e até 500 palavras para dissertações e teses.
+Escreva seu resumo aqui! Você pode digitá-lo diretamente neste arquivo ou usar o comando input. O resumo deve ter apenas uma página, desde o cabeçalho até as palavras chave. Caso seu resumo seja maior, use comandos para diminuir espaçamento e fonte (até um mínimo de 10pt) no texto.  Segundo a MDT, é preciso que os resumos tenham, no máximo, 250 palavras para trabalhos de conclusão de curso de graduação, pós-graduação e iniciação científica e até 500 palavras para dissertações e teses.
 }
 \palavrachave{Palavra Chave 1. Palavra 2. Palavra 3. (...)}
 % "... deverão constar, no mínimo, três palavras-chave, iniciadas em
@@ -189,16 +187,23 @@ Write your abstract here! As recomendações do resumo também se aplicam ao abs
 % \semanexos   %%(QUANDO ATIVIDA NAO EXIBE A LISTA)
 
 
+% % % %  LISTA DE ABREVIATURAS - AMBIENTE TABULAR
+%%%%%%%% para não utilizar comente as linhas abaixo.
+\abreviaturamax{SIGLAMAX} %%%% coloque aqui a maior sigla (indentacao)
+\listadeabreviaturas{
+	SIGLA1 & Nome Completo da Sigla 1 \\
+	SIGLA2 & Nome Completo da Sigla 2 \\
+	SIGLAMAX &	Nome Completo da Sigla MAX \\
+}
 
-% % % %  LISTA DE ABREVIATURAS E SIGLAS
-%%%%%%%% OBS: A MDT possibilita a desmembração em duas listas separadas, mas isso não é possível neste template
-%%%%%%%% OBS: O espaco entre colchetes \item[] e um ambiente matematico
+
+% % % %  LISTA DE SIGLAS - AMBIENTE TABULAR
 %%%%%%%% para não utilizar comente as linhas abaixo.
 \siglamax{SIGLAMAX} %%%% coloque aqui a maior sigla (indentacao)
-\listadeabreviaturasesiglas{
-\item[SIGLA1]	Nome Completo da Sigla 1
-\item[SIGLA2]	Nome Completo da Sigla 2
-\item[SIGLAMAX]	Nome Completo da Sigla MAX
+\listadesiglas{
+SIGLA1 & Nome Completo da Sigla 1 \\
+SIGLA2 & Nome Completo da Sigla 2 \\
+SIGLAMAX &	Nome Completo da Sigla MAX \\
 }
 
 
@@ -363,6 +368,16 @@ norte não movem moinhos.
 \end{verbatim}
 
             Segundo \apudonline{apud:richardson1922}{livro:monin:v1}, os ventos do norte não movem moinhos.
+
+\subsubsection{Citação longa}
+	
+	\begin{quoting}[rightmargin=0cm,leftmargin=4cm]
+		\begin{singlespace}
+			{\footnotesize
+				\noindent Texto da citação sem ser identado e com recuo de 4cm, fonte tamanho 10 e espaçamento simples.  \lipsum[2] Termine com ponto antes da citação.  \cite{man:MDTUFSM2015}.
+			}
+		\end{singlespace}
+	\end{quoting}
 
        \paragraph{Teste de seção quinária}
        

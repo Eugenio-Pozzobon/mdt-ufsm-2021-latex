@@ -32,7 +32,7 @@
 \usepackage[]{hyperref}
 \hypersetup{hidelinks}
 
-\usepackage[alf,recuo=0.0cm,abnt-etal-cite=3,abnt-etal-list=3,abnt-emphasize=bf,abnt-repeated-author-omit=yes,abnt-thesis-year=both,abnt-etal-text=default,abnt-and-type=e,abnt-full-initials=no]{abntex2cite}
+\usepackage[alf,recuo=0.0cm,abnt-etal-cite=3,abnt-etal-list=3,abnt-emphasize=bf,abnt-repeated-author-omit=yes,abnt-thesis-year=both,abnt-etal-text=default,abnt-and-type=e,abnt-full-initials=no, abnt-doi=link, abnt-url-package=hyperref]{abntex2cite}
 \usepackage[brazil]{babel}
 \usepackage[T1]{fontenc}
 \usepackage{indentfirst}
@@ -79,6 +79,13 @@
 \settocstylefeature[3]{entryhook}{}
 \settocstylefeature[4]{entryhook}{\it}
 
+\makeatletter
+\@ifpackageloaded{url}{%
+	\addtociteoptionlist{abnt-url-package=url}
+	\def\UrlLeft{}
+	\def\UrlRight{}
+	\urlstyle{same}}
+\makeatother
 
 \usepackage{newfloat}
 \DeclareFloatingEnvironment[
@@ -555,10 +562,15 @@ Defesa realizada por videoconferência.
   \@keywordsfalse
   \def\keywords{\@keywordstrue\gdef\@keywords}
 
-\newif\if@listadeabreviaturasesiglas
-  \@listadeabreviaturasesiglasfalse
-  \def\listadeabreviaturasesiglas{\@listadeabreviaturasesiglastrue\gdef\@listadeabreviaturasesiglas}
+\newif\if@listadesiglas
+  \@listadesiglasfalse
+  \def\listadesiglas{\@listadesiglastrue\gdef\@listadesiglas}
   
+\newif\if@listadeabreviaturas
+\@listadeabreviaturasfalse
+\def\listadeabreviaturas{\@listadeabreviaturastrue\gdef\@listadeabreviaturas}
+
+
 \newif\if@listadesimbolos
   \@listadesimbolosfalse
   \def\listadesimbolos{\@listadesimbolostrue\gdef\@listadesimbolos}
@@ -799,7 +811,7 @@ Defesa realizada por videoconferência.
 	  \advance\leftskip 3\@tempdima
 	  \hskip -\leftskip
 	  \renewcommand*\numberline[1]{##1\hspace{.3em}--\hspace{.3em}}
-	  \MakeUppercase{\figurename}\hspace{.3em}#1 \nobreak\dotfill\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
+	  {\figurename}\hspace{.3em}#1 \nobreak\dotfill\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
 	  \penalty\@highpenalty
 	  \endgroup
 	  \fi}
@@ -815,7 +827,7 @@ Defesa realizada por videoconferência.
 	    \advance\leftskip 3\@tempdima
 	    \hskip -\leftskip
 	    \renewcommand*\numberline[1]{##1\hspace{.3em}--\hspace{.3em}}
-	    \MakeUppercase{\quadroname}\hspace{.3em}#1 \nobreak\dotfill\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
+	    {\quadroname}\hspace{.3em}#1 \nobreak\dotfill\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
 	    \penalty\@highpenalty
 	    \endgroup
 	    \fi}
@@ -831,7 +843,7 @@ Defesa realizada por videoconferência.
 	    \advance\leftskip 3\@tempdima
 	    \hskip -\leftskip
 	    \renewcommand*\numberline[1]{##1\hspace{.3em}--\hspace{.3em}}
-	    \MakeUppercase{\graficoname}\hspace{.3em}#1 \nobreak\dotfill\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
+	    {\graficoname}\hspace{.3em}#1 \nobreak\dotfill\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
 	    \penalty\@highpenalty
 	    \endgroup
 	    \fi}
@@ -848,7 +860,7 @@ Defesa realizada por videoconferência.
 	      \advance\leftskip 3\@tempdima
 	      \hskip -\leftskip
 	      \renewcommand*\numberline[1]{##1\hspace{.3em}--\hspace{.3em}}
-	      \MakeUppercase{\ilustracaoname}\hspace{.3em}#1 \nobreak\dotfill\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
+	      {\ilustracaoname}\hspace{.3em}#1 \nobreak\dotfill\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
 	      \penalty\@highpenalty
 	      \endgroup
 	      \fi}  
@@ -857,6 +869,7 @@ Defesa realizada por videoconferência.
 
 
 % % % % % % Lista de símbolos
+\newcommand{\abreviaturamax}{\newcommand{\UFSM@abreviaturamax}}
 \newcommand{\siglamax}{\newcommand{\UFSM@siglamax}}
 \newcommand{\simbolomax}{\newcommand{\UFSM@simbolomax}}
 \newenvironment{listofsymbols}[1][R(x)]{ %
@@ -1119,7 +1132,7 @@ Defesa realizada por videoconferência.
         \vspace{5.0\baselineskip}
      \end{center}   
      \noindent\begin{flushright}
-     \noindent\begin{minipage}{0.5\textwidth}
+     \noindent\begin{minipage}{\textwidth-7cm}
      \singlespacing
      {\noindent\UFSM@textofolharosto\UFSM@videoconf}
      \vspace{8\baselineskip} 
@@ -1186,7 +1199,7 @@ Defesa realizada por videoconferência.
 \fi
 \setlength{\parskip}{0.0cm}
       \onehalfspacing
-\noindent\begin{center}\reset@font\bfseries{ERRATA}\vspace{\baselineskip}
+\noindent\begin{center}\reset@font{\textbf{ERRATA}}\vspace{\baselineskip}
 \noindent\begin{tabular}{|>{\centering\arraybackslash}p{0.2\textwidth} |>{\centering\arraybackslash}p{0.2\textwidth}  |>{\centering\arraybackslash}p{0.2\textwidth} | >{\centering\arraybackslash}p{0.2\textwidth} |}
 \hline
 \textbf{Página} & \textbf{Linha} & \textbf{Onde se lê} & \textbf{Leia-se}\\
@@ -1211,16 +1224,50 @@ Defesa realizada por videoconferência.
      \begin{center}
         \singlespacing
         \textbf{\noindent\@author}\\
-        \vspace{7.0\baselineskip}
+        
+        \vspace{7\baselineskip} 
+        
+        
+		  \if@bancadois
+		 \vspace{-2\baselineskip} 
+		 \fi	 
+         \if@bancatres
+		 \vspace{-1\baselineskip} 
+		 \fi	
+        
+        \if@bancaquatro
+        \vspace{-2\baselineskip} 
+        \fi	
+        \if@bancacinco
+        \vspace{-1\baselineskip} 
+        \fi	
+        
         \MakeUppercase{\textbf{\noindent\@title}}\\     
         \if@subtitulo
         {\MakeUppercase{\@subtitulo}}\\
         \fi
-        \vspace{5.0\baselineskip}
+        
+        \vspace{6\baselineskip} 
+        
+         \if@bancadois
+		\vspace{-2\baselineskip} 
+		\fi	                
+		
+         \if@bancatres
+        \vspace{-1\baselineskip} 
+        \fi	
+        
+        \if@bancaquatro
+        \vspace{-2\baselineskip} 
+        \fi	
+        \if@bancacinco
+        \vspace{-1\baselineskip} 
+        \fi	
+        
      \end{center}   
      
      \noindent\begin{flushright}
-     \noindent\begin{minipage}{0.5\textwidth}
+     \noindent\begin{minipage}{\textwidth-7cm}
      \singlespacing
      {\noindent\UFSM@textofolharosto}
      \end{minipage}
@@ -1314,8 +1361,8 @@ Defesa realizada por videoconferência.
       \vspace*{\fill}
       \begin{flushright}
       \begin{minipage}{0.45\textwidth}
-      \textit{\@epigrafetexto}      
-      \begin{flushright}\footnotesize{\textit{(\@epigrafeautor)}}\end{flushright}
+     \@epigrafetexto      
+      \begin{flushright}\footnotesize{(\@epigrafeautor)}\end{flushright}
       \end{minipage}
       \end{flushright}
 }
@@ -1335,7 +1382,7 @@ Defesa realizada por videoconferência.
 \onehalfspacing
 \vspace*{\fill}
 \begin{center}
-          \textit{\@dedicatoria}
+          \@dedicatoria
 \end{center}
 \vspace*{\fill}
 }
@@ -1352,7 +1399,7 @@ Defesa realizada por videoconferência.
 \setlength{\parskip}{0.0cm}
 \setlength{\parindent}{1.25cm}
 \onehalfspacing
-\textit{\@agradecimentos}
+\@agradecimentos
 }
 
 %%%%%%%% Folha de resumo
@@ -1432,8 +1479,8 @@ Defesa realizada por videoconferência.
 \fi
 \cchapter*{\listtablename}%
 \@mkboth{%
-\MakeUppercase\listtablename}%
-{\MakeUppercase\listtablename}%
+\listtablename}%
+{\listtablename}%
 \@starttoc{lot}%
 \if@restonecol\twocolumn\fi
 }
@@ -1453,8 +1500,8 @@ Defesa realizada por videoconferência.
 \fi
 \cchapter*{\listgraficoname}%
 \@mkboth{%
-\MakeUppercase\listgraficoname}%
-{\MakeUppercase\listgraficoname}%
+\listgraficoname}%
+{\listgraficoname}%
 \@starttoc{logg}%
 \if@restonecol\twocolumn\fi
 }
@@ -1475,8 +1522,8 @@ Defesa realizada por videoconferência.
 \fi
 \cchapter*{\listquadroname}%
 \@mkboth{%
-\MakeUppercase\listquadroname}%
-{\MakeUppercase\listquadroname}%
+\listquadroname}%
+{\listquadroname}%
 \@starttoc{los}%
 \if@restonecol\twocolumn\fi
 }
@@ -1494,8 +1541,8 @@ Defesa realizada por videoconferência.
 \fi
 \cchapter*{\listilustracaoname}%
 \@mkboth{%
-\MakeUppercase\listilustracaoname}%
-{\MakeUppercase\listilustracaoname}%
+\listilustracaoname}%
+{\listilustracaoname}%
 \@starttoc{loi}%
 \if@restonecol\twocolumn\fi
 }
@@ -1514,8 +1561,8 @@ Defesa realizada por videoconferência.
 \@restonecolfalse
 \fi
 \cchapter*{\listfigurename}%
-\@mkboth{\MakeUppercase\listfigurename}%
-{\MakeUppercase\listfigurename}%
+\@mkboth{\listfigurename}%
+{\listfigurename}%
 \@starttoc{lof}%
 \if@restonecol\twocolumn\fi
 }
@@ -1545,15 +1592,28 @@ Defesa realizada por videoconferência.
 \tableofcontents
 }
 
-%%%%%%%% Lista de Abreviaturas e Siglas
-\newcommand{\UFSM@listadeabreviaturasesiglas}{%
-    \cchapter*{Lista de Abreviaturas e Siglas}
+%%%%%%%% Lista de Abreviaturas
+\newcommand{\UFSM@listadeabreviaturas}{%
+    \cchapter*{Lista de Abreviaturas}
     \setlength{\parskip}{0.0cm}
     \setlength{\parindent}{1.25cm}
-\begin{listofsymbols}[\UFSM@siglamax\hspace{0.5cm}]
-\@listadeabreviaturasesiglas
-\end{listofsymbols} 
+    \onehalfspacing
+\noindent\begin{tabular}{p{\widthof{\UFSM@abreviaturamax\hspace{0.5cm}}}l}
+	\@listadeabreviaturas
+\end{tabular}
 
+}
+
+%%%%%%%% Lista de siglas
+\newcommand{\UFSM@listadesiglas}{%
+	\cchapter*{Lista de Siglas}
+	\setlength{\parskip}{0.0cm}
+	\setlength{\parindent}{1.25cm}
+	\onehalfspacing
+	\noindent\begin{tabular}{p{\widthof{\UFSM@siglamax\hspace{0.5cm}}}l}
+		\@listadesiglas
+	\end{tabular}
+	
 }
 
 %%%%%%%% Lista de Simbolos
@@ -1561,6 +1621,7 @@ Defesa realizada por videoconferência.
     \cchapter*{Lista de Símbolos}
 \setlength{\parskip}{0.0cm}
 \setlength{\parindent}{1.25cm}
+\onehalfspacing
 \begin{listofsymbols}[\UFSM@simbolomax\hspace{0.5cm}]
 \@listadesimbolos
 \end{listofsymbols} 
@@ -1653,9 +1714,15 @@ Defesa realizada por videoconferência.
   \UFSM@listaquadros
 \fi
 
-\if@listadeabreviaturasesiglas
-  \UFSM@listadeabreviaturasesiglas
+\if@listadeabreviaturas
+  \UFSM@listadeabreviaturas
 \fi
+
+
+\if@listadesiglas
+\UFSM@listadesiglas
+\fi
+
 
 \if@listadesimbolos
   \UFSM@listadesimbolos

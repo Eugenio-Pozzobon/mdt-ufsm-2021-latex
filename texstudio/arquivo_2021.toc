@@ -1,12 +1,13 @@
 \babel@toc {brazil}{}\relax 
-\contentsline {chapter}{\numberline {1}Introdução}{17}{section*.21}%
-\contentsline {chapter}{\numberline {2}Algumas notas sobre bibliografia}{19}{section*.22}%
-\contentsline {section}{\numberline {2.1}Modelos de citação}{19}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}O comando \textit {apud}}{20}{subsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.1}\textit {Apud on line}}{20}{subsubsection.2.1.1.1}%
-\contentsline {paragraph}{\numberline {2.1.1.1.1}Teste de seção quinária}{21}{paragraph.2.1.1.1.1}%
-\contentsline {chapter}{\numberline {3}Tabelas, figuras, quadros, ilustrações e gráficos}{22}{section*.23}%
-\contentsline {chapter}{\numberline {4}Conclusão}{26}{section*.29}%
-\contentsline {chapter}{\hspace {\@tempdima }\noindent Refer\^encias Bibliogr\'aficas}{28}{section*.31}%
-\contentsline {chapter}{\hspace {\@tempdima }\noindent Apêndice A~--~Demonstração de algo}{30}{section*.33}%
-\contentsline {chapter}{\hspace {\@tempdima }\noindent Anexo~A~--~Algo interessante que alguém fez}{32}{section*.35}%
+\contentsline {chapter}{\numberline {1}Introdução}{18}{section*.23}%
+\contentsline {chapter}{\numberline {2}Algumas notas sobre bibliografia}{20}{section*.24}%
+\contentsline {section}{\numberline {2.1}Modelos de citação}{20}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}O comando \textit {apud}}{21}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}\textit {Apud on line}}{21}{subsubsection.2.1.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.2}Citação longa}{22}{subsubsection.2.1.1.2}%
+\contentsline {paragraph}{\numberline {2.1.1.2.1}Teste de seção quinária}{22}{paragraph.2.1.1.2.1}%
+\contentsline {chapter}{\numberline {3}Tabelas, figuras, quadros, ilustrações e gráficos}{23}{section*.25}%
+\contentsline {chapter}{\numberline {4}Conclusão}{27}{section*.31}%
+\contentsline {chapter}{\hspace {\@tempdima }\noindent Refer\^encias Bibliogr\'aficas}{29}{section*.33}%
+\contentsline {chapter}{\hspace {\@tempdima }\noindent Apêndice A~--~Demonstração de algo}{31}{section*.35}%
+\contentsline {chapter}{\hspace {\@tempdima }\noindent Anexo~A~--~Algo interessante que alguém fez}{33}{section*.37}%
