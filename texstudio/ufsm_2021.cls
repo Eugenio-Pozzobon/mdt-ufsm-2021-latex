@@ -1224,12 +1224,46 @@ Defesa realizada por videoconferência.
      \begin{center}
         \singlespacing
         \textbf{\noindent\@author}\\
-        \vspace{7.0\baselineskip}
+        
+        \vspace{7\baselineskip} 
+        
+        
+		  \if@bancadois
+		 \vspace{-2\baselineskip} 
+		 \fi	 
+         \if@bancatres
+		 \vspace{-1\baselineskip} 
+		 \fi	
+        
+        \if@bancaquatro
+        \vspace{-2\baselineskip} 
+        \fi	
+        \if@bancacinco
+        \vspace{-1\baselineskip} 
+        \fi	
+        
         \MakeUppercase{\textbf{\noindent\@title}}\\     
         \if@subtitulo
         {\MakeUppercase{\@subtitulo}}\\
         \fi
-        \vspace{5.0\baselineskip}
+        
+        \vspace{6\baselineskip} 
+        
+         \if@bancadois
+		\vspace{-2\baselineskip} 
+		\fi	                
+		
+         \if@bancatres
+        \vspace{-1\baselineskip} 
+        \fi	
+        
+        \if@bancaquatro
+        \vspace{-2\baselineskip} 
+        \fi	
+        \if@bancacinco
+        \vspace{-1\baselineskip} 
+        \fi	
+        
      \end{center}   
      
      \noindent\begin{flushright}
