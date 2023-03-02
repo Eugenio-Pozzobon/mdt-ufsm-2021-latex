@@ -10,7 +10,7 @@ Existem duas pastas neste repositório, a pasta do TexStudio contém os arquivos
 ## Alterações implementadas em comparação com o template da MDT 2015
 
 ### Versão 1.1.0
-Essa versão é o resultado de uma apreciação com responsáveis pela MDT da UFSM.
+Essa versão é o resultado de uma apreciação com responsáveis pela MDT e bibliotecários da UFSM, incluindo Deisire Amaral Lobo, Rafael do Carmo Batista, Pablo Siqueira Terres e Vitor de Carvalho
 
 * Elementos pré textuais padronizados sem o itálico;
 * Nomes das figuras, ilustrações, etc sem forçar letras maiúsculas;
