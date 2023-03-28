@@ -4,10 +4,16 @@ Existem duas pastas neste repositório, a pasta do TexStudio contém os arquivos
 
 ## Configurações Necessárias nos compiladores
 
-* No texstudio acesse: opções>configurar o texstudio>compilação. Altere para o XeLaTeX 
+* No texstudio acesse: opções>configurar o texstudio>compilação. Altere para XeLaTeX 
+* No TexWorks, configure o compilador para "XeLaTeX + MakeIndex + Bibtex"
 * No Overleaf acesse o menu do projeto e altere o compilador e selecone o XeLaTeX. Altere também a versão do texlive para a 2020 (legacy)
 
+Observação importante: assegure que seus pacotes estão atualizados. Se você possui o miktex instalado no windows, por exemplo, abra o miktex console e verifique as atualizações. 
+
 ## Alterações implementadas em comparação com o template da MDT 2015
+
+### Versão 1.1.1
+Correção de conflito com pacotes mais atualizados do miktex
 
 ### Versão 1.1.0
 Essa versão é o resultado de uma apreciação com responsáveis pela MDT e bibliotecários da UFSM, incluindo Deisire Amaral Lobo, Rafael do Carmo Batista, Pablo Siqueira Terres e Vitor de Carvalho
