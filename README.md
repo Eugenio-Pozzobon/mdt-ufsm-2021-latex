@@ -7,6 +7,7 @@ Existem duas pastas neste repositório, a pasta do TexStudio contém os arquivos
 * No texstudio acesse: opções>configurar o texstudio>compilação. Altere para XeLaTeX 
 * No TexWorks, configure o compilador para "XeLaTeX + MakeIndex + Bibtex"
 * No Overleaf acesse o menu do projeto e altere o compilador e selecone o XeLaTeX. Altere também a versão do texlive para a 2020 (legacy)
+* OU, no overleaf, entre pelo link: https://www.overleaf.com/latex/templates/mdt-ufsm-2021/wbmqyzfngtgv
 
 Observação importante: assegure que seus pacotes estão atualizados. Se você possui o miktex instalado no windows, por exemplo, abra o miktex console e verifique as atualizações. 
 
