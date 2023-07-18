@@ -1,6 +1,6 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.18)  28 MAR 2023 02:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.18)  17 JUL 2023 20:26
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **ufsm_2021.tex
 
@@ -11,11 +11,11 @@ entering extended mode
 
  
 Here is how much of TeX's memory you used:
- 2 strings out of 476179
- 19 string characters out of 5809544
- 298513 words of memory out of 5000000
- 20858 multiletter control sequences out of 15000+600000
+ 3 strings out of 478268
+ 105 string characters out of 5846347
+ 289381 words of memory out of 5000000
+ 18314 multiletter control sequences out of 15000+600000
  469259 words of font info for 28 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
+ 1141 hyphenation exceptions out of 8191
  0i,0n,0p,1b,6s stack positions out of 10000i,1000n,20000p,200000b,200000s
-No pages of output.
+!  ==> Fatal error occurred, no output PDF file produced!

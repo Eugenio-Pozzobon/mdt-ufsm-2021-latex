@@ -737,12 +737,12 @@ Defesa realizada por videoconferência.
 \renewcommand{\chapter}{\@startsection{chapter}{1}{\z@}%
 {-3.5ex \@plus -1ex \@minus -.2ex}%
 {2\baselineskip}%
-{\cleardoublepage\phantomsection\thispagestyle{empty}\reset@font\bfseries\MakeUppercase}}
+{\cleardoublepage\phantomsection\thispagestyle{UFSMhead}\reset@font\bfseries\MakeUppercase}}
 \else
 \renewcommand{\chapter}{\@startsection{chapter}{1}{\z@}%
 {-3.5ex \@plus -1ex \@minus -.2ex}%
 {2\baselineskip}%
-{\clearpage\phantomsection\thispagestyle{empty}\reset@font\bfseries\MakeUppercase}}
+{\clearpage\phantomsection\thispagestyle{UFSMhead}\reset@font\bfseries\MakeUppercase}}
 \fi
 
 \newif\if@centralizado
