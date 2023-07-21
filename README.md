@@ -13,6 +13,9 @@ Observação importante: assegure que seus pacotes estão atualizados. Se você 
 
 ## Alterações implementadas em comparação com o template da MDT 2015
 
+### Versão 1.1.2
+Numeração em páginas de início de capítulo.
+
 ### Versão 1.1.1
 Correção de conflito com pacotes mais atualizados do miktex
 
