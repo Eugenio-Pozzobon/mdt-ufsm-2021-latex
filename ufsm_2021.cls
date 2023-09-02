@@ -1140,11 +1140,11 @@ Defesa realizada por videoconferência.
      \end{flushright}
      \begin{center}
         \singlespacing
-        {{{\UFSM@sexoorientador~~\UFSM@sexoorientadorprof~~\@orientadornome}}}  
+        {{{\UFSM@sexoorientador~~\UFSM@sexoorientadorprof~~\@orientadortit.~\@orientadornome}}}  
 
         \if@coorientador
 	\vspace{1\baselineskip}
-	{{{\UFSM@sexocoorientador~~\UFSM@sexocoorientadorprof~~\@coorientadornome}}}  
+	{{{\UFSM@sexocoorientador~~\UFSM@sexocoorientadorprof~~\@coorientadortit.~\@coorientadornome}}}  
 	\fi
 	
         \if@supervisor
